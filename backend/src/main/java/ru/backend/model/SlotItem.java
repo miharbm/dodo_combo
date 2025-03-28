@@ -2,6 +2,9 @@ package ru.backend.model;
 
 import jakarta.persistence.*;
 
+import java.math.BigDecimal;
+import java.util.List;
+
 @Entity
 @Table(name = "slot_items")
 public class SlotItem {
@@ -11,19 +14,34 @@ public class SlotItem {
     @Column(name = "id")
     private Long id;
 
+    @Column(name = "title", nullable = false)
+    private String title;
+
     @ManyToOne
     @JoinColumn(name = "gmenu_id", nullable = false)
     private GeneralMenu generalMenu;
 
-    private Integer extraPrice;
+    @Column(name = "extra_price", nullable = false)
+    private BigDecimal extraPrice;
 
-    // Getters and setters
+    @OneToMany(mappedBy = "slotItem", cascade = CascadeType.ALL, orphanRemoval = true)
+    private List<SlotItemRelation> relations;
+
+    // Геттеры и сеттеры
     public Long getId() {
         return id;
     }
 
-    public void setSlotId(Long id) {
+    public void setId(Long id) {
         this.id = id;
+    }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
     }
 
     public GeneralMenu getGeneralMenu() {
@@ -34,11 +52,19 @@ public class SlotItem {
         this.generalMenu = generalMenu;
     }
 
-    public Integer getExtraPrice() {
+    public BigDecimal getExtraPrice() {
         return extraPrice;
     }
 
-    public void setExtraPrice(Integer extraPrice) {
+    public void setExtraPrice(BigDecimal extraPrice) {
         this.extraPrice = extraPrice;
+    }
+
+    public List<SlotItemRelation> getRelations() {
+        return relations;
+    }
+
+    public void setRelations(List<SlotItemRelation> relations) {
+        this.relations = relations;
     }
 }

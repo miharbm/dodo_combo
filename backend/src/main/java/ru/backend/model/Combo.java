@@ -2,6 +2,9 @@ package ru.backend.model;
 
 import jakarta.persistence.*;
 
+import java.util.ArrayList;
+import java.util.List;
+
 @Entity
 @Table(name = "combo")
 public class Combo {
@@ -12,6 +15,9 @@ public class Combo {
 
     private String title;
     private Long price;
+
+    @OneToMany(mappedBy = "combo", cascade = CascadeType.ALL, orphanRemoval = true)
+    private List<ComboSlot> slots = new ArrayList<>();
 
     // Getters and setters
     public Long getId() {

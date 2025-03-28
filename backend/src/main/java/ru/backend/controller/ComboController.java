@@ -1,25 +1,27 @@
 package ru.backend.controller;
 
-import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import ru.backend.model.Combo;
-import ru.backend.service.ComboService;
+import ru.backend.service.ComboImportService;
+
+import java.io.IOException;
 
 @RestController
 @RequestMapping("/combo")
 public class ComboController {
 
-    @Autowired
-    private ComboService comboService;
+    private final ComboImportService comboImportService;
 
-    @GetMapping("/{title}")
-    public Combo getComboByTitle(@PathVariable String title) {
-        return comboService.getComboByTitle(title);
+    // Используем конструктор для внедрения зависимости
+    public ComboController(ComboImportService comboImportService) {
+        this.comboImportService = comboImportService;
     }
 
-    @PostMapping
-    public Combo createCombo(@RequestBody Combo combo) {
-        return comboService.createCombo(combo);
+    @PostMapping("/init")
+    public ResponseEntity<Void> init() throws IOException {
+        comboImportService.importCombosFromJson();
+        return ResponseEntity.status( HttpStatus.CREATED).build();
+
     }
 }
-
