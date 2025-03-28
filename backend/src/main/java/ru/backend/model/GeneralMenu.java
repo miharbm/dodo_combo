@@ -10,7 +10,7 @@ public class GeneralMenu {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Column(unique = true)
+    @Column()
     private String category;
 
     @Column(unique = true)

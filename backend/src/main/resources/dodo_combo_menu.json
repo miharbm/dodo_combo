@@ -1,0 +1,5910 @@
+[
+    {
+        "title": "Неизведанное комбо",
+        "price": 1655,
+        "items": {
+            "slot_0": [
+                {
+                    "title": "Бургер-пицца, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Гавайская, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Колбаски барбекю, 30 см",
+                    "extra_price": 10
+                },
+                {
+                    "title": "Баварская, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Чилл Грилл, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Бефстроганов, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Мясная, 30 см",
+                    "extra_price": 80
+                },
+                {
+                    "title": "Жюльен, 30 см",
+                    "extra_price": 100
+                },
+                {
+                    "title": "Аррива!, 30 см",
+                    "extra_price": 140
+                },
+                {
+                    "title": "Диабло, 30 см",
+                    "extra_price": 200
+                },
+                {
+                    "title": "Карбонара, 30 см",
+                    "extra_price": 180
+                },
+                {
+                    "title": "Цыпленок барбекю, 30 см",
+                    "extra_price": 180
+                },
+                {
+                    "title": "Креветки со сладким чили, 30 см",
+                    "extra_price": 90
+                },
+                {
+                    "title": "Цыпленок Ранч, 30 см",
+                    "extra_price": 170
+                },
+                {
+                    "title": "Додо, 30 см",
+                    "extra_price": 340
+                }
+            ],
+            "slot_1": [
+                {
+                    "title": "Гавайская, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Бургер-пицца, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Колбаски барбекю, 30 см",
+                    "extra_price": 10
+                },
+                {
+                    "title": "Баварская, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Чилл Грилл, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Бефстроганов, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Мясная, 30 см",
+                    "extra_price": 80
+                },
+                {
+                    "title": "Жюльен, 30 см",
+                    "extra_price": 100
+                },
+                {
+                    "title": "Аррива!, 30 см",
+                    "extra_price": 140
+                },
+                {
+                    "title": "Диабло, 30 см",
+                    "extra_price": 200
+                },
+                {
+                    "title": "Карбонара, 30 см",
+                    "extra_price": 180
+                },
+                {
+                    "title": "Цыпленок барбекю, 30 см",
+                    "extra_price": 180
+                },
+                {
+                    "title": "Креветки со сладким чили, 30 см",
+                    "extra_price": 90
+                },
+                {
+                    "title": "Цыпленок Ранч, 30 см",
+                    "extra_price": 170
+                },
+                {
+                    "title": "Додо, 30 см",
+                    "extra_price": 340
+                }
+            ],
+            "slot_2": [
+                {
+                    "title": "Добрый Кола",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Добрый Кола без сахара",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Добрый Кола Малина",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Добрый Апельсин",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Добрый Манго-Маракуйя",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Добрый Лимон-Лайм",
+                    "extra_price": 0
+                }
+            ],
+            "slot_3": [
+                {
+                    "title": "Добрый Кола Малина",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Добрый Кола",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Добрый Кола без сахара",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Добрый Апельсин",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Добрый Манго-Маракуйя",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Добрый Лимон-Лайм",
+                    "extra_price": 0
+                }
+            ]
+        }
+    },
+    {
+        "title": "Додо Бокс",
+        "price": 479,
+        "items": {
+            "slot_0": [
+                {
+                    "title": "Куриные наггетсы, 5 шт",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Картофель из печи, Стандартная",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Сырники, 2 шт",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Маффин Три шоколада",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Шоколадный кукис",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Макарон манго-маракуйя",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Додстер",
+                    "extra_price": 70
+                }
+            ],
+            "slot_1": [
+                {
+                    "title": "Картофель из печи, Стандартная",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Куриные наггетсы, 5 шт",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Сырники, 2 шт",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Маффин Три шоколада",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Шоколадный кукис",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Макарон манго-маракуйя",
+                    "extra_price": 0
+                }
+            ],
+            "slot_2": [
+                {
+                    "title": "Яблочный сок Rich",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Вишневый нектар Rich",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Апельсиновый сок Rich",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Добрый Кола",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Добрый Кола без сахара",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Вода BonaAqua негазированная",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Морс Вишня",
+                    "extra_price": 40
+                },
+                {
+                    "title": "Морс Клюква",
+                    "extra_price": 40
+                },
+                {
+                    "title": "Морс Черная смородина",
+                    "extra_price": 40
+                },
+                {
+                    "title": "Классический молочный коктейль",
+                    "extra_price": 70
+                },
+                {
+                    "title": "Шоколадный молочный коктейль",
+                    "extra_price": 70
+                }
+            ],
+            "slot_3": [
+                {
+                    "title": "Игрушка космический экипаж Додо",
+                    "extra_price": 0
+                }
+            ]
+        }
+    },
+    {
+        "title": "Чикен бокс",
+        "price": 300,
+        "items": {
+            "slot_0": [
+                {
+                    "title": "Куриные наггетсы, 5 шт",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Куриные наггетсы, 10 шт",
+                    "extra_price": 120
+                }
+            ],
+            "slot_1": [
+                {
+                    "title": "Картофель из печи, Стандартная",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Картофель из печи, Большая",
+                    "extra_price": 110
+                }
+            ],
+            "slot_2": [
+                {
+                    "title": "Сырный",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Барбекю",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Чесночный",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Медово-горчичный",
+                    "extra_price": 0
+                }
+            ]
+        }
+    },
+    {
+        "title": "Завтрак на двоих",
+        "price": 499,
+        "items": {
+            "slot_0": [
+                {
+                    "title": "Омлет с томатами",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Соберите свой омлет",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Омлет с томатами в пите",
+                    "extra_price": 20
+                },
+                {
+                    "title": "Омлет с ветчиной и грибами",
+                    "extra_price": 40
+                },
+                {
+                    "title": "Омлет с беконом",
+                    "extra_price": 40
+                },
+                {
+                    "title": "Омлет сырный",
+                    "extra_price": 40
+                },
+                {
+                    "title": "Омлет с пепперони",
+                    "extra_price": 40
+                },
+                {
+                    "title": "Додстер с ветчиной",
+                    "extra_price": 70
+                },
+                {
+                    "title": "Омлет с беконом в пите",
+                    "extra_price": 50
+                },
+                {
+                    "title": "Омлет с ветчиной и грибами в пите",
+                    "extra_price": 50
+                },
+                {
+                    "title": "Омлет сырный в пите",
+                    "extra_price": 50
+                },
+                {
+                    "title": "Омлет с пепперони в пите",
+                    "extra_price": 50
+                }
+            ],
+            "slot_1": [
+                {
+                    "title": "Омлет с томатами",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Соберите свой омлет",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Омлет с томатами в пите",
+                    "extra_price": 20
+                },
+                {
+                    "title": "Омлет с ветчиной и грибами",
+                    "extra_price": 40
+                },
+                {
+                    "title": "Омлет с беконом",
+                    "extra_price": 40
+                },
+                {
+                    "title": "Омлет сырный",
+                    "extra_price": 40
+                },
+                {
+                    "title": "Омлет с пепперони",
+                    "extra_price": 40
+                },
+                {
+                    "title": "Додстер с ветчиной",
+                    "extra_price": 70
+                },
+                {
+                    "title": "Омлет с беконом в пите",
+                    "extra_price": 50
+                },
+                {
+                    "title": "Омлет с ветчиной и грибами в пите",
+                    "extra_price": 50
+                },
+                {
+                    "title": "Омлет сырный в пите",
+                    "extra_price": 50
+                },
+                {
+                    "title": "Омлет с пепперони в пите",
+                    "extra_price": 50
+                }
+            ],
+            "slot_2": [
+                {
+                    "title": "Кофе Капучино",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Кофе Латте",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Добрый Кола",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Добрый Кола без сахара",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Добрый Апельсин",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Добрый Лимон-Лайм",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Добрый Кола Малина",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Добрый Манго-Маракуйя",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Rich Tea Черный с лимоном",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Rich Tea Зеленый",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Rich Tea Зеленый с манго",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Морс Вишня",
+                    "extra_price": 15
+                },
+                {
+                    "title": "Морс Клюква",
+                    "extra_price": 15
+                },
+                {
+                    "title": "Морс Черная смородина",
+                    "extra_price": 15
+                },
+                {
+                    "title": "Кофе Кокосовый латте",
+                    "extra_price": 40
+                },
+                {
+                    "title": "Кофе Карамельный капучино",
+                    "extra_price": 40
+                },
+                {
+                    "title": "Кофе Ореховый латте",
+                    "extra_price": 40
+                },
+                {
+                    "title": "Классический молочный коктейль",
+                    "extra_price": 65
+                },
+                {
+                    "title": "Вишневый нектар Rich",
+                    "extra_price": 90
+                },
+                {
+                    "title": "Яблочный сок Rich",
+                    "extra_price": 90
+                },
+                {
+                    "title": "Апельсиновый сок Rich",
+                    "extra_price": 90
+                },
+                {
+                    "title": "Шоколадный молочный коктейль",
+                    "extra_price": 90
+                },
+                {
+                    "title": "Молочный коктейль с печеньем Орео",
+                    "extra_price": 95
+                },
+                {
+                    "title": "Клубничный молочный коктейль",
+                    "extra_price": 95
+                },
+                {
+                    "title": "Молочный коктейль Ежевика-малина",
+                    "extra_price": 95
+                },
+                {
+                    "title": "Молочный коктейль Пина Колада",
+                    "extra_price": 95
+                }
+            ],
+            "slot_3": [
+                {
+                    "title": "Кофе Латте",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Кофе Капучино",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Добрый Кола",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Добрый Кола без сахара",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Добрый Апельсин",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Добрый Лимон-Лайм",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Добрый Кола Малина",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Добрый Манго-Маракуйя",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Rich Tea Черный с лимоном",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Rich Tea Зеленый",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Rich Tea Зеленый с манго",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Морс Вишня",
+                    "extra_price": 15
+                },
+                {
+                    "title": "Морс Клюква",
+                    "extra_price": 15
+                },
+                {
+                    "title": "Морс Черная смородина",
+                    "extra_price": 15
+                },
+                {
+                    "title": "Кофе Кокосовый латте",
+                    "extra_price": 40
+                },
+                {
+                    "title": "Кофе Карамельный капучино",
+                    "extra_price": 40
+                },
+                {
+                    "title": "Кофе Ореховый латте",
+                    "extra_price": 40
+                },
+                {
+                    "title": "Классический молочный коктейль",
+                    "extra_price": 65
+                },
+                {
+                    "title": "Вишневый нектар Rich",
+                    "extra_price": 90
+                },
+                {
+                    "title": "Яблочный сок Rich",
+                    "extra_price": 90
+                },
+                {
+                    "title": "Апельсиновый сок Rich",
+                    "extra_price": 90
+                },
+                {
+                    "title": "Шоколадный молочный коктейль",
+                    "extra_price": 90
+                },
+                {
+                    "title": "Молочный коктейль с печеньем Орео",
+                    "extra_price": 95
+                },
+                {
+                    "title": "Клубничный молочный коктейль",
+                    "extra_price": 95
+                },
+                {
+                    "title": "Молочный коктейль Ежевика-малина",
+                    "extra_price": 95
+                },
+                {
+                    "title": "Молочный коктейль Пина Колада",
+                    "extra_price": 95
+                }
+            ]
+        }
+    },
+    {
+        "title": "Четыре в одном",
+        "price": 719,
+        "items": {
+            "slot_0": [
+                {
+                    "title": "Ветчина и сыр, 25 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Двойной цыпленок, 25 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Бургер-пицца, 25 см",
+                    "extra_price": 50
+                },
+                {
+                    "title": "Ветчина и грибы, 25 см",
+                    "extra_price": 50
+                },
+                {
+                    "title": "Гавайская, 25 см",
+                    "extra_price": 50
+                },
+                {
+                    "title": "Колбаски барбекю, 25 см",
+                    "extra_price": 50
+                },
+                {
+                    "title": "Маргарита, 25 см",
+                    "extra_price": 50
+                },
+                {
+                    "title": "Пепперони, 25 см",
+                    "extra_price": 50
+                },
+                {
+                    "title": "Четыре сезона, 25 см",
+                    "extra_price": 50
+                },
+                {
+                    "title": "Чилл Грилл, 25 см",
+                    "extra_price": 50
+                },
+                {
+                    "title": "Аррива!, 25 см",
+                    "extra_price": 100
+                },
+                {
+                    "title": "Баварская, 25 см",
+                    "extra_price": 100
+                },
+                {
+                    "title": "Бефстроганов, 25 см",
+                    "extra_price": 100
+                },
+                {
+                    "title": "Двойная пепперони, 25 см",
+                    "extra_price": 100
+                },
+                {
+                    "title": "Додо микс, 25 см",
+                    "extra_price": 100
+                },
+                {
+                    "title": "Мясная, 25 см",
+                    "extra_price": 100
+                },
+                {
+                    "title": "Мясная с аджикой, 25 см",
+                    "extra_price": 100
+                },
+                {
+                    "title": "Мясной микс с говядиной и колбасками, 25 см",
+                    "extra_price": 100
+                },
+                {
+                    "title": "Овощи и грибы, 25 см",
+                    "extra_price": 100
+                },
+                {
+                    "title": "Песто, 25 см",
+                    "extra_price": 100
+                },
+                {
+                    "title": "Жюльен, 25 см",
+                    "extra_price": 100
+                },
+                {
+                    "title": "Сырный цыпленок, 25 см",
+                    "extra_price": 100
+                },
+                {
+                    "title": "Диабло, 25 см",
+                    "extra_price": 200
+                },
+                {
+                    "title": "Карбонара, 25 см",
+                    "extra_price": 200
+                },
+                {
+                    "title": "Креветки со сладким чили, 25 см",
+                    "extra_price": 200
+                },
+                {
+                    "title": "Цыпленок барбекю, 25 см",
+                    "extra_price": 200
+                },
+                {
+                    "title": "Додо, 25 см",
+                    "extra_price": 300
+                },
+                {
+                    "title": "Цыпленок Ранч, 25 см",
+                    "extra_price": 300
+                }
+            ],
+            "slot_1": [
+                {
+                    "title": "Додстер",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Острый Додстер",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Додстер с ветчиной",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Грибной Стартер",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Сырный Стартер",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Дэнвич ветчина и сыр",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Дэнвич чоризо барбекю",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Додстер Чилл Грилл",
+                    "extra_price": 10
+                },
+                {
+                    "title": "Дэнвич с говядиной",
+                    "extra_price": 20
+                },
+                {
+                    "title": "Супермясной Додстер",
+                    "extra_price": 20
+                },
+                {
+                    "title": "Картофель из печи, Большая",
+                    "extra_price": 30
+                },
+                {
+                    "title": "Куриные наггетсы, 10 шт",
+                    "extra_price": 70
+                },
+                {
+                    "title": "Салат Цезарь",
+                    "extra_price": 40
+                },
+                {
+                    "title": "Креветки, 5 шт",
+                    "extra_price": 100
+                },
+                {
+                    "title": "Баварский ланчбокс",
+                    "extra_price": 110
+                },
+                {
+                    "title": "Паста Карбонара",
+                    "extra_price": 160
+                },
+                {
+                    "title": "Паста Песто",
+                    "extra_price": 160
+                },
+                {
+                    "title": "Паста с креветками",
+                    "extra_price": 180
+                }
+            ],
+            "slot_2": [
+                {
+                    "title": "Добрый Кола",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Добрый Кола без сахара",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Добрый Кола Малина",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Добрый Манго-Маракуйя",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Добрый Апельсин",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Добрый Лимон-Лайм",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Лимонад Арбузный лайм",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Rich Tea Черный с лимоном",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Rich Tea Зеленый",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Rich Tea Зеленый с манго",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Морс Вишня",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Морс Клюква",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Морс Черная смородина",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Кофе Американо, 0.4 л",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Кофе Капучино",
+                    "extra_price": 35
+                },
+                {
+                    "title": "Кофе Латте",
+                    "extra_price": 35
+                },
+                {
+                    "title": "Капучино Яблочный пирог",
+                    "extra_price": 35
+                },
+                {
+                    "title": "Кофе Ореховый латте",
+                    "extra_price": 35
+                },
+                {
+                    "title": "Кофе Карамельный капучино",
+                    "extra_price": 35
+                },
+                {
+                    "title": "Кофе Кокосовый латте",
+                    "extra_price": 35
+                },
+                {
+                    "title": "Классический молочный коктейль",
+                    "extra_price": 75
+                },
+                {
+                    "title": "Вишневый нектар Rich",
+                    "extra_price": 85
+                },
+                {
+                    "title": "Яблочный сок Rich",
+                    "extra_price": 85
+                },
+                {
+                    "title": "Апельсиновый сок Rich",
+                    "extra_price": 85
+                },
+                {
+                    "title": "Шоколадный молочный коктейль",
+                    "extra_price": 100
+                },
+                {
+                    "title": "Клубничный молочный коктейль",
+                    "extra_price": 100
+                },
+                {
+                    "title": "Молочный коктейль Ежевика-малина",
+                    "extra_price": 100
+                },
+                {
+                    "title": "Молочный коктейль Пина Колада",
+                    "extra_price": 100
+                },
+                {
+                    "title": "Молочный коктейль с печеньем Орео",
+                    "extra_price": 100
+                },
+                {
+                    "title": "Айс капучино",
+                    "extra_price": 100
+                }
+            ],
+            "slot_3": [
+                {
+                    "title": "Барбекю",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Сырный",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Медово-горчичный",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Чесночный",
+                    "extra_price": 0
+                }
+            ]
+        }
+    },
+    {
+        "title": "3 пиццы 25 см",
+        "price": 899,
+        "items": {
+            "slot_0": [
+                {
+                    "title": "Пепперони фреш, 25 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Сырная, 25 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Чоризо фреш, 25 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Ветчина и сыр, 25 см",
+                    "extra_price": 90
+                },
+                {
+                    "title": "Двойной цыпленок, 25 см",
+                    "extra_price": 110
+                },
+                {
+                    "title": "Бургер-пицца, 25 см",
+                    "extra_price": 180
+                },
+                {
+                    "title": "Ветчина и грибы, 25 см",
+                    "extra_price": 140
+                },
+                {
+                    "title": "Гавайская, 25 см",
+                    "extra_price": 160
+                },
+                {
+                    "title": "Колбаски барбекю, 25 см",
+                    "extra_price": 170
+                },
+                {
+                    "title": "Маргарита, 25 см",
+                    "extra_price": 150
+                },
+                {
+                    "title": "Пепперони, 25 см",
+                    "extra_price": 150
+                },
+                {
+                    "title": "Четыре сезона, 25 см",
+                    "extra_price": 150
+                },
+                {
+                    "title": "Чилл Грилл, 25 см",
+                    "extra_price": 150
+                },
+                {
+                    "title": "Аррива!, 25 см",
+                    "extra_price": 270
+                },
+                {
+                    "title": "Баварская, 25 см",
+                    "extra_price": 180
+                },
+                {
+                    "title": "Бефстроганов, 25 см",
+                    "extra_price": 160
+                },
+                {
+                    "title": "Двойная пепперони, 25 см",
+                    "extra_price": 240
+                },
+                {
+                    "title": "Додо микс, 25 см",
+                    "extra_price": 210
+                },
+                {
+                    "title": "Мясная, 25 см",
+                    "extra_price": 230
+                },
+                {
+                    "title": "Мясная с аджикой, 25 см",
+                    "extra_price": 160
+                },
+                {
+                    "title": "Мясной микс с говядиной и колбасками, 25 см",
+                    "extra_price": 210
+                },
+                {
+                    "title": "Овощи и грибы, 25 см",
+                    "extra_price": 210
+                },
+                {
+                    "title": "Песто, 25 см",
+                    "extra_price": 270
+                },
+                {
+                    "title": "Жюльен, 25 см",
+                    "extra_price": 240
+                },
+                {
+                    "title": "Сырный цыпленок, 25 см",
+                    "extra_price": 270
+                },
+                {
+                    "title": "Диабло, 25 см",
+                    "extra_price": 300
+                },
+                {
+                    "title": "Карбонара, 25 см",
+                    "extra_price": 280
+                },
+                {
+                    "title": "Креветки со сладким чили, 25 см",
+                    "extra_price": 220
+                },
+                {
+                    "title": "Цыпленок барбекю, 25 см",
+                    "extra_price": 300
+                },
+                {
+                    "title": "Додо, 25 см",
+                    "extra_price": 430
+                },
+                {
+                    "title": "Цыпленок Ранч, 25 см",
+                    "extra_price": 330
+                }
+            ],
+            "slot_1": [
+                {
+                    "title": "Сырная, 25 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Пепперони фреш, 25 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Чоризо фреш, 25 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Ветчина и сыр, 25 см",
+                    "extra_price": 90
+                },
+                {
+                    "title": "Двойной цыпленок, 25 см",
+                    "extra_price": 110
+                },
+                {
+                    "title": "Бургер-пицца, 25 см",
+                    "extra_price": 180
+                },
+                {
+                    "title": "Ветчина и грибы, 25 см",
+                    "extra_price": 140
+                },
+                {
+                    "title": "Гавайская, 25 см",
+                    "extra_price": 160
+                },
+                {
+                    "title": "Колбаски барбекю, 25 см",
+                    "extra_price": 170
+                },
+                {
+                    "title": "Маргарита, 25 см",
+                    "extra_price": 150
+                },
+                {
+                    "title": "Пепперони, 25 см",
+                    "extra_price": 150
+                },
+                {
+                    "title": "Четыре сезона, 25 см",
+                    "extra_price": 150
+                },
+                {
+                    "title": "Чилл Грилл, 25 см",
+                    "extra_price": 150
+                },
+                {
+                    "title": "Аррива!, 25 см",
+                    "extra_price": 270
+                },
+                {
+                    "title": "Баварская, 25 см",
+                    "extra_price": 180
+                },
+                {
+                    "title": "Бефстроганов, 25 см",
+                    "extra_price": 160
+                },
+                {
+                    "title": "Двойная пепперони, 25 см",
+                    "extra_price": 240
+                },
+                {
+                    "title": "Додо микс, 25 см",
+                    "extra_price": 210
+                },
+                {
+                    "title": "Мясная, 25 см",
+                    "extra_price": 230
+                },
+                {
+                    "title": "Мясная с аджикой, 25 см",
+                    "extra_price": 160
+                },
+                {
+                    "title": "Мясной микс с говядиной и колбасками, 25 см",
+                    "extra_price": 210
+                },
+                {
+                    "title": "Овощи и грибы, 25 см",
+                    "extra_price": 210
+                },
+                {
+                    "title": "Песто, 25 см",
+                    "extra_price": 270
+                },
+                {
+                    "title": "Жюльен, 25 см",
+                    "extra_price": 240
+                },
+                {
+                    "title": "Сырный цыпленок, 25 см",
+                    "extra_price": 270
+                },
+                {
+                    "title": "Диабло, 25 см",
+                    "extra_price": 300
+                },
+                {
+                    "title": "Карбонара, 25 см",
+                    "extra_price": 280
+                },
+                {
+                    "title": "Креветки со сладким чили, 25 см",
+                    "extra_price": 220
+                },
+                {
+                    "title": "Цыпленок барбекю, 25 см",
+                    "extra_price": 300
+                },
+                {
+                    "title": "Додо, 25 см",
+                    "extra_price": 430
+                },
+                {
+                    "title": "Цыпленок Ранч, 25 см",
+                    "extra_price": 330
+                }
+            ],
+            "slot_2": [
+                {
+                    "title": "Чоризо фреш, 25 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Пепперони фреш, 25 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Сырная, 25 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Ветчина и сыр, 25 см",
+                    "extra_price": 90
+                },
+                {
+                    "title": "Двойной цыпленок, 25 см",
+                    "extra_price": 110
+                },
+                {
+                    "title": "Бургер-пицца, 25 см",
+                    "extra_price": 180
+                },
+                {
+                    "title": "Ветчина и грибы, 25 см",
+                    "extra_price": 140
+                },
+                {
+                    "title": "Гавайская, 25 см",
+                    "extra_price": 160
+                },
+                {
+                    "title": "Колбаски барбекю, 25 см",
+                    "extra_price": 170
+                },
+                {
+                    "title": "Маргарита, 25 см",
+                    "extra_price": 150
+                },
+                {
+                    "title": "Пепперони, 25 см",
+                    "extra_price": 150
+                },
+                {
+                    "title": "Четыре сезона, 25 см",
+                    "extra_price": 150
+                },
+                {
+                    "title": "Чилл Грилл, 25 см",
+                    "extra_price": 150
+                },
+                {
+                    "title": "Аррива!, 25 см",
+                    "extra_price": 270
+                },
+                {
+                    "title": "Баварская, 25 см",
+                    "extra_price": 180
+                },
+                {
+                    "title": "Бефстроганов, 25 см",
+                    "extra_price": 160
+                },
+                {
+                    "title": "Двойная пепперони, 25 см",
+                    "extra_price": 240
+                },
+                {
+                    "title": "Додо микс, 25 см",
+                    "extra_price": 210
+                },
+                {
+                    "title": "Мясная, 25 см",
+                    "extra_price": 230
+                },
+                {
+                    "title": "Мясная с аджикой, 25 см",
+                    "extra_price": 160
+                },
+                {
+                    "title": "Мясной микс с говядиной и колбасками, 25 см",
+                    "extra_price": 210
+                },
+                {
+                    "title": "Овощи и грибы, 25 см",
+                    "extra_price": 210
+                },
+                {
+                    "title": "Песто, 25 см",
+                    "extra_price": 270
+                },
+                {
+                    "title": "Жюльен, 25 см",
+                    "extra_price": 240
+                },
+                {
+                    "title": "Сырный цыпленок, 25 см",
+                    "extra_price": 270
+                },
+                {
+                    "title": "Диабло, 25 см",
+                    "extra_price": 300
+                },
+                {
+                    "title": "Карбонара, 25 см",
+                    "extra_price": 280
+                },
+                {
+                    "title": "Креветки со сладким чили, 25 см",
+                    "extra_price": 220
+                },
+                {
+                    "title": "Цыпленок барбекю, 25 см",
+                    "extra_price": 300
+                },
+                {
+                    "title": "Додо, 25 см",
+                    "extra_price": 430
+                },
+                {
+                    "title": "Цыпленок Ранч, 25 см",
+                    "extra_price": 330
+                }
+            ]
+        }
+    },
+    {
+        "title": "2 пиццы",
+        "price": 1199,
+        "items": {
+            "slot_0": [
+                {
+                    "title": "Бургер-пицца, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Ветчина и грибы, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Гавайская, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Колбаски барбекю, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Маргарита, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Пепперони, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Четыре сезона, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Чилл Грилл, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Аррива!, 30 см",
+                    "extra_price": 120
+                },
+                {
+                    "title": "Баварская, 30 см",
+                    "extra_price": 10
+                },
+                {
+                    "title": "Бефстроганов, 30 см",
+                    "extra_price": 50
+                },
+                {
+                    "title": "Двойная пепперони, 30 см",
+                    "extra_price": 120
+                },
+                {
+                    "title": "Додо микс, 30 см",
+                    "extra_price": 70
+                },
+                {
+                    "title": "Мясная, 30 см",
+                    "extra_price": 80
+                },
+                {
+                    "title": "Мясная с аджикой, 30 см",
+                    "extra_price": 50
+                },
+                {
+                    "title": "Мясной микс с говядиной и колбасками, 30 см",
+                    "extra_price": 60
+                },
+                {
+                    "title": "Овощи и грибы, 30 см",
+                    "extra_price": 80
+                },
+                {
+                    "title": "Песто, 30 см",
+                    "extra_price": 90
+                },
+                {
+                    "title": "Жюльен, 30 см",
+                    "extra_price": 100
+                },
+                {
+                    "title": "Сырный цыпленок, 30 см",
+                    "extra_price": 100
+                },
+                {
+                    "title": "Диабло, 30 см",
+                    "extra_price": 200
+                },
+                {
+                    "title": "Карбонара, 30 см",
+                    "extra_price": 180
+                },
+                {
+                    "title": "Креветки со сладким чили, 30 см",
+                    "extra_price": 90
+                },
+                {
+                    "title": "Цыпленок барбекю, 30 см",
+                    "extra_price": 180
+                },
+                {
+                    "title": "Додо, 30 см",
+                    "extra_price": 310
+                },
+                {
+                    "title": "Цыпленок Ранч, 30 см",
+                    "extra_price": 200
+                }
+            ],
+            "slot_1": [
+                {
+                    "title": "Ветчина и грибы, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Бургер-пицца, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Гавайская, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Колбаски барбекю, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Маргарита, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Пепперони, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Четыре сезона, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Чилл Грилл, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Аррива!, 30 см",
+                    "extra_price": 120
+                },
+                {
+                    "title": "Баварская, 30 см",
+                    "extra_price": 10
+                },
+                {
+                    "title": "Бефстроганов, 30 см",
+                    "extra_price": 50
+                },
+                {
+                    "title": "Двойная пепперони, 30 см",
+                    "extra_price": 120
+                },
+                {
+                    "title": "Додо микс, 30 см",
+                    "extra_price": 70
+                },
+                {
+                    "title": "Мясная, 30 см",
+                    "extra_price": 80
+                },
+                {
+                    "title": "Мясная с аджикой, 30 см",
+                    "extra_price": 50
+                },
+                {
+                    "title": "Мясной микс с говядиной и колбасками, 30 см",
+                    "extra_price": 60
+                },
+                {
+                    "title": "Овощи и грибы, 30 см",
+                    "extra_price": 80
+                },
+                {
+                    "title": "Песто, 30 см",
+                    "extra_price": 90
+                },
+                {
+                    "title": "Жюльен, 30 см",
+                    "extra_price": 100
+                },
+                {
+                    "title": "Сырный цыпленок, 30 см",
+                    "extra_price": 100
+                },
+                {
+                    "title": "Диабло, 30 см",
+                    "extra_price": 200
+                },
+                {
+                    "title": "Карбонара, 30 см",
+                    "extra_price": 180
+                },
+                {
+                    "title": "Креветки со сладким чили, 30 см",
+                    "extra_price": 90
+                },
+                {
+                    "title": "Цыпленок барбекю, 30 см",
+                    "extra_price": 180
+                },
+                {
+                    "title": "Додо, 30 см",
+                    "extra_price": 310
+                },
+                {
+                    "title": "Цыпленок Ранч, 30 см",
+                    "extra_price": 200
+                }
+            ]
+        }
+    },
+    {
+        "title": "3 пиццы 30 см",
+        "price": 1349,
+        "items": {
+            "slot_0": [
+                {
+                    "title": "Пепперони фреш, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Сырная, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Чоризо фреш, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Ветчина и сыр, 30 см",
+                    "extra_price": 50
+                },
+                {
+                    "title": "Двойной цыпленок, 30 см",
+                    "extra_price": 80
+                },
+                {
+                    "title": "Бургер-пицца, 30 см",
+                    "extra_price": 180
+                },
+                {
+                    "title": "Ветчина и грибы, 30 см",
+                    "extra_price": 150
+                },
+                {
+                    "title": "Гавайская, 30 см",
+                    "extra_price": 180
+                },
+                {
+                    "title": "Колбаски барбекю, 30 см",
+                    "extra_price": 190
+                },
+                {
+                    "title": "Маргарита, 30 см",
+                    "extra_price": 150
+                },
+                {
+                    "title": "Пепперони, 30 см",
+                    "extra_price": 160
+                },
+                {
+                    "title": "Четыре сезона, 30 см",
+                    "extra_price": 180
+                },
+                {
+                    "title": "Чилл Грилл, 30 см",
+                    "extra_price": 160
+                },
+                {
+                    "title": "Аррива!, 30 см",
+                    "extra_price": 300
+                },
+                {
+                    "title": "Бефстроганов, 30 см",
+                    "extra_price": 240
+                },
+                {
+                    "title": "Двойная пепперони, 30 см",
+                    "extra_price": 300
+                },
+                {
+                    "title": "Додо микс, 30 см",
+                    "extra_price": 250
+                },
+                {
+                    "title": "Мясная, 30 см",
+                    "extra_price": 260
+                },
+                {
+                    "title": "Мясная с аджикой, 30 см",
+                    "extra_price": 240
+                },
+                {
+                    "title": "Мясной микс с говядиной и колбасками, 30 см",
+                    "extra_price": 240
+                },
+                {
+                    "title": "Овощи и грибы, 30 см",
+                    "extra_price": 260
+                },
+                {
+                    "title": "Песто, 30 см",
+                    "extra_price": 270
+                },
+                {
+                    "title": "Жюльен, 30 см",
+                    "extra_price": 280
+                },
+                {
+                    "title": "Сырный цыпленок, 30 см",
+                    "extra_price": 280
+                },
+                {
+                    "title": "Диабло, 30 см",
+                    "extra_price": 380
+                },
+                {
+                    "title": "Карбонара, 30 см",
+                    "extra_price": 360
+                },
+                {
+                    "title": "Креветки со сладким чили, 30 см",
+                    "extra_price": 270
+                },
+                {
+                    "title": "Цыпленок барбекю, 30 см",
+                    "extra_price": 360
+                },
+                {
+                    "title": "Додо, 30 см",
+                    "extra_price": 490
+                },
+                {
+                    "title": "Цыпленок Ранч, 30 см",
+                    "extra_price": 380
+                }
+            ],
+            "slot_1": [
+                {
+                    "title": "Сырная, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Пепперони фреш, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Чоризо фреш, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Ветчина и сыр, 30 см",
+                    "extra_price": 50
+                },
+                {
+                    "title": "Двойной цыпленок, 30 см",
+                    "extra_price": 80
+                },
+                {
+                    "title": "Бургер-пицца, 30 см",
+                    "extra_price": 180
+                },
+                {
+                    "title": "Ветчина и грибы, 30 см",
+                    "extra_price": 150
+                },
+                {
+                    "title": "Гавайская, 30 см",
+                    "extra_price": 180
+                },
+                {
+                    "title": "Колбаски барбекю, 30 см",
+                    "extra_price": 190
+                },
+                {
+                    "title": "Маргарита, 30 см",
+                    "extra_price": 150
+                },
+                {
+                    "title": "Пепперони, 30 см",
+                    "extra_price": 160
+                },
+                {
+                    "title": "Четыре сезона, 30 см",
+                    "extra_price": 180
+                },
+                {
+                    "title": "Чилл Грилл, 30 см",
+                    "extra_price": 160
+                },
+                {
+                    "title": "Аррива!, 30 см",
+                    "extra_price": 300
+                },
+                {
+                    "title": "Бефстроганов, 30 см",
+                    "extra_price": 240
+                },
+                {
+                    "title": "Двойная пепперони, 30 см",
+                    "extra_price": 300
+                },
+                {
+                    "title": "Додо микс, 30 см",
+                    "extra_price": 250
+                },
+                {
+                    "title": "Мясная, 30 см",
+                    "extra_price": 260
+                },
+                {
+                    "title": "Мясная с аджикой, 30 см",
+                    "extra_price": 240
+                },
+                {
+                    "title": "Мясной микс с говядиной и колбасками, 30 см",
+                    "extra_price": 240
+                },
+                {
+                    "title": "Овощи и грибы, 30 см",
+                    "extra_price": 260
+                },
+                {
+                    "title": "Песто, 30 см",
+                    "extra_price": 270
+                },
+                {
+                    "title": "Жюльен, 30 см",
+                    "extra_price": 280
+                },
+                {
+                    "title": "Сырный цыпленок, 30 см",
+                    "extra_price": 280
+                },
+                {
+                    "title": "Диабло, 30 см",
+                    "extra_price": 380
+                },
+                {
+                    "title": "Карбонара, 30 см",
+                    "extra_price": 360
+                },
+                {
+                    "title": "Креветки со сладким чили, 30 см",
+                    "extra_price": 270
+                },
+                {
+                    "title": "Цыпленок барбекю, 30 см",
+                    "extra_price": 360
+                },
+                {
+                    "title": "Додо, 30 см",
+                    "extra_price": 490
+                },
+                {
+                    "title": "Цыпленок Ранч, 30 см",
+                    "extra_price": 380
+                }
+            ],
+            "slot_2": [
+                {
+                    "title": "Чоризо фреш, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Пепперони фреш, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Сырная, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Ветчина и сыр, 30 см",
+                    "extra_price": 50
+                },
+                {
+                    "title": "Двойной цыпленок, 30 см",
+                    "extra_price": 80
+                },
+                {
+                    "title": "Бургер-пицца, 30 см",
+                    "extra_price": 180
+                },
+                {
+                    "title": "Ветчина и грибы, 30 см",
+                    "extra_price": 150
+                },
+                {
+                    "title": "Гавайская, 30 см",
+                    "extra_price": 180
+                },
+                {
+                    "title": "Колбаски барбекю, 30 см",
+                    "extra_price": 190
+                },
+                {
+                    "title": "Маргарита, 30 см",
+                    "extra_price": 150
+                },
+                {
+                    "title": "Пепперони, 30 см",
+                    "extra_price": 160
+                },
+                {
+                    "title": "Четыре сезона, 30 см",
+                    "extra_price": 180
+                },
+                {
+                    "title": "Чилл Грилл, 30 см",
+                    "extra_price": 160
+                },
+                {
+                    "title": "Аррива!, 30 см",
+                    "extra_price": 300
+                },
+                {
+                    "title": "Бефстроганов, 30 см",
+                    "extra_price": 240
+                },
+                {
+                    "title": "Двойная пепперони, 30 см",
+                    "extra_price": 300
+                },
+                {
+                    "title": "Додо микс, 30 см",
+                    "extra_price": 250
+                },
+                {
+                    "title": "Мясная, 30 см",
+                    "extra_price": 260
+                },
+                {
+                    "title": "Мясная с аджикой, 30 см",
+                    "extra_price": 240
+                },
+                {
+                    "title": "Мясной микс с говядиной и колбасками, 30 см",
+                    "extra_price": 240
+                },
+                {
+                    "title": "Овощи и грибы, 30 см",
+                    "extra_price": 260
+                },
+                {
+                    "title": "Песто, 30 см",
+                    "extra_price": 270
+                },
+                {
+                    "title": "Жюльен, 30 см",
+                    "extra_price": 280
+                },
+                {
+                    "title": "Сырный цыпленок, 30 см",
+                    "extra_price": 280
+                },
+                {
+                    "title": "Диабло, 30 см",
+                    "extra_price": 380
+                },
+                {
+                    "title": "Карбонара, 30 см",
+                    "extra_price": 360
+                },
+                {
+                    "title": "Креветки со сладким чили, 30 см",
+                    "extra_price": 270
+                },
+                {
+                    "title": "Цыпленок барбекю, 30 см",
+                    "extra_price": 360
+                },
+                {
+                    "title": "Додо, 30 см",
+                    "extra_price": 490
+                },
+                {
+                    "title": "Цыпленок Ранч, 30 см",
+                    "extra_price": 380
+                }
+            ]
+        }
+    },
+    {
+        "title": "3 пиццы 35 см",
+        "price": 1799,
+        "items": {
+            "slot_0": [
+                {
+                    "title": "Пепперони фреш, 35 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Сырная, 35 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Чоризо фреш, 35 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Ветчина и сыр, 35 см",
+                    "extra_price": 60
+                },
+                {
+                    "title": "Двойной цыпленок, 35 см",
+                    "extra_price": 80
+                },
+                {
+                    "title": "Бургер-пицца, 35 см",
+                    "extra_price": 260
+                },
+                {
+                    "title": "Ветчина и грибы, 35 см",
+                    "extra_price": 220
+                },
+                {
+                    "title": "Гавайская, 35 см",
+                    "extra_price": 200
+                },
+                {
+                    "title": "Колбаски барбекю, 35 см",
+                    "extra_price": 270
+                },
+                {
+                    "title": "Маргарита, 35 см",
+                    "extra_price": 200
+                },
+                {
+                    "title": "Пепперони, 35 см",
+                    "extra_price": 180
+                },
+                {
+                    "title": "Четыре сезона, 35 см",
+                    "extra_price": 240
+                },
+                {
+                    "title": "Чилл Грилл, 35 см",
+                    "extra_price": 240
+                },
+                {
+                    "title": "Аррива!, 35 см",
+                    "extra_price": 380
+                },
+                {
+                    "title": "Баварская, 35 см",
+                    "extra_price": 250
+                },
+                {
+                    "title": "Бефстроганов, 35 см",
+                    "extra_price": 320
+                },
+                {
+                    "title": "Двойная пепперони, 35 см",
+                    "extra_price": 310
+                },
+                {
+                    "title": "Додо микс, 35 см",
+                    "extra_price": 280
+                },
+                {
+                    "title": "Мясная, 35 см",
+                    "extra_price": 300
+                },
+                {
+                    "title": "Мясная с аджикой, 35 см",
+                    "extra_price": 320
+                },
+                {
+                    "title": "Мясной микс с говядиной и колбасками, 35 см",
+                    "extra_price": 310
+                },
+                {
+                    "title": "Овощи и грибы, 35 см",
+                    "extra_price": 280
+                },
+                {
+                    "title": "Песто, 35 см",
+                    "extra_price": 320
+                },
+                {
+                    "title": "Жюльен, 35 см",
+                    "extra_price": 300
+                },
+                {
+                    "title": "Сырный цыпленок, 35 см",
+                    "extra_price": 330
+                },
+                {
+                    "title": "Диабло, 35 см",
+                    "extra_price": 430
+                },
+                {
+                    "title": "Карбонара, 35 см",
+                    "extra_price": 350
+                },
+                {
+                    "title": "Креветки со сладким чили, 35 см",
+                    "extra_price": 250
+                },
+                {
+                    "title": "Цыпленок барбекю, 35 см",
+                    "extra_price": 360
+                },
+                {
+                    "title": "Додо, 35 см",
+                    "extra_price": 580
+                },
+                {
+                    "title": "Цыпленок Ранч, 35 см",
+                    "extra_price": 430
+                }
+            ],
+            "slot_1": [
+                {
+                    "title": "Сырная, 35 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Пепперони фреш, 35 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Чоризо фреш, 35 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Ветчина и сыр, 35 см",
+                    "extra_price": 60
+                },
+                {
+                    "title": "Двойной цыпленок, 35 см",
+                    "extra_price": 80
+                },
+                {
+                    "title": "Бургер-пицца, 35 см",
+                    "extra_price": 260
+                },
+                {
+                    "title": "Ветчина и грибы, 35 см",
+                    "extra_price": 220
+                },
+                {
+                    "title": "Гавайская, 35 см",
+                    "extra_price": 200
+                },
+                {
+                    "title": "Колбаски барбекю, 35 см",
+                    "extra_price": 270
+                },
+                {
+                    "title": "Маргарита, 35 см",
+                    "extra_price": 200
+                },
+                {
+                    "title": "Пепперони, 35 см",
+                    "extra_price": 180
+                },
+                {
+                    "title": "Четыре сезона, 35 см",
+                    "extra_price": 240
+                },
+                {
+                    "title": "Чилл Грилл, 35 см",
+                    "extra_price": 240
+                },
+                {
+                    "title": "Аррива!, 35 см",
+                    "extra_price": 380
+                },
+                {
+                    "title": "Баварская, 35 см",
+                    "extra_price": 250
+                },
+                {
+                    "title": "Бефстроганов, 35 см",
+                    "extra_price": 320
+                },
+                {
+                    "title": "Двойная пепперони, 35 см",
+                    "extra_price": 310
+                },
+                {
+                    "title": "Додо микс, 35 см",
+                    "extra_price": 280
+                },
+                {
+                    "title": "Мясная, 35 см",
+                    "extra_price": 300
+                },
+                {
+                    "title": "Мясная с аджикой, 35 см",
+                    "extra_price": 320
+                },
+                {
+                    "title": "Мясной микс с говядиной и колбасками, 35 см",
+                    "extra_price": 310
+                },
+                {
+                    "title": "Овощи и грибы, 35 см",
+                    "extra_price": 280
+                },
+                {
+                    "title": "Песто, 35 см",
+                    "extra_price": 320
+                },
+                {
+                    "title": "Жюльен, 35 см",
+                    "extra_price": 300
+                },
+                {
+                    "title": "Сырный цыпленок, 35 см",
+                    "extra_price": 330
+                },
+                {
+                    "title": "Диабло, 35 см",
+                    "extra_price": 430
+                },
+                {
+                    "title": "Карбонара, 35 см",
+                    "extra_price": 350
+                },
+                {
+                    "title": "Креветки со сладким чили, 35 см",
+                    "extra_price": 250
+                },
+                {
+                    "title": "Цыпленок барбекю, 35 см",
+                    "extra_price": 360
+                },
+                {
+                    "title": "Додо, 35 см",
+                    "extra_price": 580
+                },
+                {
+                    "title": "Цыпленок Ранч, 35 см",
+                    "extra_price": 430
+                }
+            ],
+            "slot_2": [
+                {
+                    "title": "Чоризо фреш, 35 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Пепперони фреш, 35 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Сырная, 35 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Ветчина и сыр, 35 см",
+                    "extra_price": 60
+                },
+                {
+                    "title": "Двойной цыпленок, 35 см",
+                    "extra_price": 80
+                },
+                {
+                    "title": "Бургер-пицца, 35 см",
+                    "extra_price": 260
+                },
+                {
+                    "title": "Ветчина и грибы, 35 см",
+                    "extra_price": 220
+                },
+                {
+                    "title": "Гавайская, 35 см",
+                    "extra_price": 200
+                },
+                {
+                    "title": "Колбаски барбекю, 35 см",
+                    "extra_price": 270
+                },
+                {
+                    "title": "Маргарита, 35 см",
+                    "extra_price": 200
+                },
+                {
+                    "title": "Пепперони, 35 см",
+                    "extra_price": 180
+                },
+                {
+                    "title": "Четыре сезона, 35 см",
+                    "extra_price": 240
+                },
+                {
+                    "title": "Чилл Грилл, 35 см",
+                    "extra_price": 240
+                },
+                {
+                    "title": "Аррива!, 35 см",
+                    "extra_price": 380
+                },
+                {
+                    "title": "Баварская, 35 см",
+                    "extra_price": 250
+                },
+                {
+                    "title": "Бефстроганов, 35 см",
+                    "extra_price": 320
+                },
+                {
+                    "title": "Двойная пепперони, 35 см",
+                    "extra_price": 310
+                },
+                {
+                    "title": "Додо микс, 35 см",
+                    "extra_price": 280
+                },
+                {
+                    "title": "Мясная, 35 см",
+                    "extra_price": 300
+                },
+                {
+                    "title": "Мясная с аджикой, 35 см",
+                    "extra_price": 320
+                },
+                {
+                    "title": "Мясной микс с говядиной и колбасками, 35 см",
+                    "extra_price": 310
+                },
+                {
+                    "title": "Овощи и грибы, 35 см",
+                    "extra_price": 280
+                },
+                {
+                    "title": "Песто, 35 см",
+                    "extra_price": 320
+                },
+                {
+                    "title": "Жюльен, 35 см",
+                    "extra_price": 300
+                },
+                {
+                    "title": "Сырный цыпленок, 35 см",
+                    "extra_price": 330
+                },
+                {
+                    "title": "Диабло, 35 см",
+                    "extra_price": 430
+                },
+                {
+                    "title": "Карбонара, 35 см",
+                    "extra_price": 350
+                },
+                {
+                    "title": "Креветки со сладким чили, 35 см",
+                    "extra_price": 250
+                },
+                {
+                    "title": "Цыпленок барбекю, 35 см",
+                    "extra_price": 360
+                },
+                {
+                    "title": "Додо, 35 см",
+                    "extra_price": 580
+                },
+                {
+                    "title": "Цыпленок Ранч, 35 см",
+                    "extra_price": 430
+                }
+            ]
+        }
+    },
+    {
+        "title": "2 пиццы и напиток",
+        "price": 859,
+        "items": {
+            "slot_0": [
+                {
+                    "title": "Ветчина и сыр, 25 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Двойной цыпленок, 25 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Бургер-пицца, 25 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Ветчина и грибы, 25 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Гавайская, 25 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Колбаски барбекю, 25 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Маргарита, 25 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Пепперони, 25 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Четыре сезона, 25 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Чилл Грилл, 25 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Аррива!, 25 см",
+                    "extra_price": 100
+                },
+                {
+                    "title": "Баварская, 25 см",
+                    "extra_price": 100
+                },
+                {
+                    "title": "Бефстроганов, 25 см",
+                    "extra_price": 100
+                },
+                {
+                    "title": "Двойная пепперони, 25 см",
+                    "extra_price": 100
+                },
+                {
+                    "title": "Додо микс, 25 см",
+                    "extra_price": 100
+                },
+                {
+                    "title": "Жюльен, 25 см",
+                    "extra_price": 100
+                },
+                {
+                    "title": "Мясная, 25 см",
+                    "extra_price": 100
+                },
+                {
+                    "title": "Мясная с аджикой, 25 см",
+                    "extra_price": 100
+                },
+                {
+                    "title": "Мясной микс с говядиной и колбасками, 25 см",
+                    "extra_price": 100
+                },
+                {
+                    "title": "Овощи и грибы, 25 см",
+                    "extra_price": 100
+                },
+                {
+                    "title": "Песто, 25 см",
+                    "extra_price": 100
+                },
+                {
+                    "title": "Сырный цыпленок, 25 см",
+                    "extra_price": 100
+                },
+                {
+                    "title": "Диабло, 25 см",
+                    "extra_price": 170
+                },
+                {
+                    "title": "Карбонара, 25 см",
+                    "extra_price": 170
+                },
+                {
+                    "title": "Креветки со сладким чили, 25 см",
+                    "extra_price": 170
+                },
+                {
+                    "title": "Цыпленок барбекю, 25 см",
+                    "extra_price": 170
+                },
+                {
+                    "title": "Додо, 25 см",
+                    "extra_price": 300
+                },
+                {
+                    "title": "Цыпленок Ранч, 25 см",
+                    "extra_price": 300
+                }
+            ],
+            "slot_1": [
+                {
+                    "title": "Двойной цыпленок, 25 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Ветчина и сыр, 25 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Бургер-пицца, 25 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Ветчина и грибы, 25 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Гавайская, 25 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Колбаски барбекю, 25 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Маргарита, 25 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Пепперони, 25 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Четыре сезона, 25 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Чилл Грилл, 25 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Аррива!, 25 см",
+                    "extra_price": 100
+                },
+                {
+                    "title": "Баварская, 25 см",
+                    "extra_price": 100
+                },
+                {
+                    "title": "Бефстроганов, 25 см",
+                    "extra_price": 100
+                },
+                {
+                    "title": "Двойная пепперони, 25 см",
+                    "extra_price": 100
+                },
+                {
+                    "title": "Додо микс, 25 см",
+                    "extra_price": 100
+                },
+                {
+                    "title": "Жюльен, 25 см",
+                    "extra_price": 100
+                },
+                {
+                    "title": "Мясная, 25 см",
+                    "extra_price": 100
+                },
+                {
+                    "title": "Мясная с аджикой, 25 см",
+                    "extra_price": 100
+                },
+                {
+                    "title": "Мясной микс с говядиной и колбасками, 25 см",
+                    "extra_price": 100
+                },
+                {
+                    "title": "Овощи и грибы, 25 см",
+                    "extra_price": 100
+                },
+                {
+                    "title": "Песто, 25 см",
+                    "extra_price": 100
+                },
+                {
+                    "title": "Сырный цыпленок, 25 см",
+                    "extra_price": 100
+                },
+                {
+                    "title": "Диабло, 25 см",
+                    "extra_price": 170
+                },
+                {
+                    "title": "Карбонара, 25 см",
+                    "extra_price": 170
+                },
+                {
+                    "title": "Креветки со сладким чили, 25 см",
+                    "extra_price": 170
+                },
+                {
+                    "title": "Цыпленок барбекю, 25 см",
+                    "extra_price": 170
+                },
+                {
+                    "title": "Додо, 25 см",
+                    "extra_price": 300
+                },
+                {
+                    "title": "Цыпленок Ранч, 25 см",
+                    "extra_price": 300
+                }
+            ],
+            "slot_2": [
+                {
+                    "title": "Добрый Кола",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Добрый Кола без сахара",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Добрый Кола Малина",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Добрый Манго-Маракуйя",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Добрый Апельсин",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Добрый Лимон-Лайм",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Лимонад Арбузный лайм",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Rich Tea Черный с лимоном",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Rich Tea Зеленый",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Rich Tea Зеленый с манго",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Морс Вишня",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Морс Клюква",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Морс Черная смородина",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Кофе Американо, 0.4 л",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Кофе Капучино",
+                    "extra_price": 35
+                },
+                {
+                    "title": "Кофе Латте",
+                    "extra_price": 35
+                },
+                {
+                    "title": "Капучино Яблочный пирог",
+                    "extra_price": 35
+                },
+                {
+                    "title": "Кофе Ореховый латте",
+                    "extra_price": 35
+                },
+                {
+                    "title": "Кофе Карамельный капучино",
+                    "extra_price": 35
+                },
+                {
+                    "title": "Кофе Кокосовый латте",
+                    "extra_price": 35
+                },
+                {
+                    "title": "Классический молочный коктейль",
+                    "extra_price": 75
+                },
+                {
+                    "title": "Вишневый нектар Rich",
+                    "extra_price": 85
+                },
+                {
+                    "title": "Яблочный сок Rich",
+                    "extra_price": 85
+                },
+                {
+                    "title": "Апельсиновый сок Rich",
+                    "extra_price": 85
+                },
+                {
+                    "title": "Шоколадный молочный коктейль",
+                    "extra_price": 100
+                },
+                {
+                    "title": "Клубничный молочный коктейль",
+                    "extra_price": 100
+                },
+                {
+                    "title": "Молочный коктейль с печеньем Орео",
+                    "extra_price": 100
+                },
+                {
+                    "title": "Молочный коктейль Ежевика-малина",
+                    "extra_price": 100
+                },
+                {
+                    "title": "Молочный коктейль Пина Колада",
+                    "extra_price": 100
+                }
+            ]
+        }
+    },
+    {
+        "title": "4 Закуски",
+        "price": 759,
+        "items": {
+            "slot_0": [
+                {
+                    "title": "Додстер",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Додстер с ветчиной",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Острый Додстер",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Сырный Стартер",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Грибной Стартер",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Креветки, 3 шт",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Додстер Чилл Грилл",
+                    "extra_price": 10
+                },
+                {
+                    "title": "Супермясной Додстер",
+                    "extra_price": 20
+                },
+                {
+                    "title": "Дэнвич ветчина и сыр",
+                    "extra_price": 30
+                },
+                {
+                    "title": "Дэнвич чоризо барбекю",
+                    "extra_price": 30
+                },
+                {
+                    "title": "Картофель из печи, Большая",
+                    "extra_price": 30
+                },
+                {
+                    "title": "Дэнвич с говядиной",
+                    "extra_price": 50
+                },
+                {
+                    "title": "Куриные наггетсы, 10 шт",
+                    "extra_price": 70
+                },
+                {
+                    "title": "Салат Цезарь",
+                    "extra_price": 40
+                },
+                {
+                    "title": "Баварский ланчбокс",
+                    "extra_price": 110
+                },
+                {
+                    "title": "Паста Песто",
+                    "extra_price": 160
+                },
+                {
+                    "title": "Паста Карбонара",
+                    "extra_price": 160
+                },
+                {
+                    "title": "Паста с креветками",
+                    "extra_price": 180
+                },
+                {
+                    "title": "Креветки, 5 шт",
+                    "extra_price": 100
+                }
+            ],
+            "slot_1": [
+                {
+                    "title": "Острый Додстер",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Додстер",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Додстер с ветчиной",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Сырный Стартер",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Грибной Стартер",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Креветки, 3 шт",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Додстер Чилл Грилл",
+                    "extra_price": 10
+                },
+                {
+                    "title": "Супермясной Додстер",
+                    "extra_price": 20
+                },
+                {
+                    "title": "Дэнвич ветчина и сыр",
+                    "extra_price": 30
+                },
+                {
+                    "title": "Дэнвич чоризо барбекю",
+                    "extra_price": 30
+                },
+                {
+                    "title": "Картофель из печи, Большая",
+                    "extra_price": 30
+                },
+                {
+                    "title": "Дэнвич с говядиной",
+                    "extra_price": 50
+                },
+                {
+                    "title": "Куриные наггетсы, 10 шт",
+                    "extra_price": 70
+                },
+                {
+                    "title": "Салат Цезарь",
+                    "extra_price": 40
+                },
+                {
+                    "title": "Баварский ланчбокс",
+                    "extra_price": 110
+                },
+                {
+                    "title": "Паста Песто",
+                    "extra_price": 160
+                },
+                {
+                    "title": "Паста Карбонара",
+                    "extra_price": 160
+                },
+                {
+                    "title": "Паста с креветками",
+                    "extra_price": 180
+                },
+                {
+                    "title": "Креветки, 5 шт",
+                    "extra_price": 100
+                }
+            ],
+            "slot_2": [
+                {
+                    "title": "Сырный Стартер",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Додстер",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Додстер с ветчиной",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Острый Додстер",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Грибной Стартер",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Креветки, 3 шт",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Додстер Чилл Грилл",
+                    "extra_price": 10
+                },
+                {
+                    "title": "Супермясной Додстер",
+                    "extra_price": 20
+                },
+                {
+                    "title": "Дэнвич ветчина и сыр",
+                    "extra_price": 30
+                },
+                {
+                    "title": "Дэнвич чоризо барбекю",
+                    "extra_price": 30
+                },
+                {
+                    "title": "Картофель из печи, Большая",
+                    "extra_price": 30
+                },
+                {
+                    "title": "Дэнвич с говядиной",
+                    "extra_price": 50
+                },
+                {
+                    "title": "Куриные наггетсы, 10 шт",
+                    "extra_price": 70
+                },
+                {
+                    "title": "Салат Цезарь",
+                    "extra_price": 40
+                },
+                {
+                    "title": "Баварский ланчбокс",
+                    "extra_price": 110
+                },
+                {
+                    "title": "Паста Песто",
+                    "extra_price": 160
+                },
+                {
+                    "title": "Паста Карбонара",
+                    "extra_price": 160
+                },
+                {
+                    "title": "Паста с креветками",
+                    "extra_price": 180
+                },
+                {
+                    "title": "Креветки, 5 шт",
+                    "extra_price": 100
+                }
+            ],
+            "slot_3": [
+                {
+                    "title": "Грибной Стартер",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Додстер",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Додстер с ветчиной",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Острый Додстер",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Сырный Стартер",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Креветки, 3 шт",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Додстер Чилл Грилл",
+                    "extra_price": 10
+                },
+                {
+                    "title": "Супермясной Додстер",
+                    "extra_price": 20
+                },
+                {
+                    "title": "Дэнвич ветчина и сыр",
+                    "extra_price": 30
+                },
+                {
+                    "title": "Дэнвич чоризо барбекю",
+                    "extra_price": 30
+                },
+                {
+                    "title": "Картофель из печи, Большая",
+                    "extra_price": 30
+                },
+                {
+                    "title": "Дэнвич с говядиной",
+                    "extra_price": 50
+                },
+                {
+                    "title": "Куриные наггетсы, 10 шт",
+                    "extra_price": 70
+                },
+                {
+                    "title": "Салат Цезарь",
+                    "extra_price": 40
+                },
+                {
+                    "title": "Баварский ланчбокс",
+                    "extra_price": 110
+                },
+                {
+                    "title": "Паста Песто",
+                    "extra_price": 160
+                },
+                {
+                    "title": "Паста Карбонара",
+                    "extra_price": 160
+                },
+                {
+                    "title": "Паста с креветками",
+                    "extra_price": 180
+                },
+                {
+                    "title": "Креветки, 5 шт",
+                    "extra_price": 100
+                }
+            ]
+        }
+    },
+    {
+        "title": "5 пицц",
+        "price": 2999,
+        "items": {
+            "slot_0": [
+                {
+                    "title": "Ветчина и сыр, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Двойной цыпленок, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Бургер-пицца, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Ветчина и грибы, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Гавайская, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Колбаски барбекю, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Маргарита, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Пепперони, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Четыре сезона, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Чилл Грилл, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Аррива!, 30 см",
+                    "extra_price": 120
+                },
+                {
+                    "title": "Бефстроганов, 30 см",
+                    "extra_price": 50
+                },
+                {
+                    "title": "Баварская, 30 см",
+                    "extra_price": 10
+                },
+                {
+                    "title": "Двойная пепперони, 30 см",
+                    "extra_price": 120
+                },
+                {
+                    "title": "Додо микс, 30 см",
+                    "extra_price": 70
+                },
+                {
+                    "title": "Мясная, 30 см",
+                    "extra_price": 80
+                },
+                {
+                    "title": "Мясная с аджикой, 30 см",
+                    "extra_price": 50
+                },
+                {
+                    "title": "Мясной микс с говядиной и колбасками, 30 см",
+                    "extra_price": 60
+                },
+                {
+                    "title": "Овощи и грибы, 30 см",
+                    "extra_price": 80
+                },
+                {
+                    "title": "Песто, 30 см",
+                    "extra_price": 90
+                },
+                {
+                    "title": "Жюльен, 30 см",
+                    "extra_price": 100
+                },
+                {
+                    "title": "Сырный цыпленок, 30 см",
+                    "extra_price": 100
+                },
+                {
+                    "title": "Диабло, 30 см",
+                    "extra_price": 200
+                },
+                {
+                    "title": "Карбонара, 30 см",
+                    "extra_price": 180
+                },
+                {
+                    "title": "Креветки со сладким чили, 30 см",
+                    "extra_price": 90
+                },
+                {
+                    "title": "Цыпленок барбекю, 30 см",
+                    "extra_price": 180
+                },
+                {
+                    "title": "Додо, 30 см",
+                    "extra_price": 310
+                },
+                {
+                    "title": "Цыпленок Ранч, 30 см",
+                    "extra_price": 200
+                }
+            ],
+            "slot_1": [
+                {
+                    "title": "Пепперони, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Ветчина и сыр, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Двойной цыпленок, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Бургер-пицца, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Ветчина и грибы, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Гавайская, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Колбаски барбекю, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Маргарита, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Четыре сезона, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Чилл Грилл, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Аррива!, 30 см",
+                    "extra_price": 120
+                },
+                {
+                    "title": "Бефстроганов, 30 см",
+                    "extra_price": 50
+                },
+                {
+                    "title": "Баварская, 30 см",
+                    "extra_price": 10
+                },
+                {
+                    "title": "Двойная пепперони, 30 см",
+                    "extra_price": 120
+                },
+                {
+                    "title": "Додо микс, 30 см",
+                    "extra_price": 70
+                },
+                {
+                    "title": "Мясная, 30 см",
+                    "extra_price": 80
+                },
+                {
+                    "title": "Мясная с аджикой, 30 см",
+                    "extra_price": 50
+                },
+                {
+                    "title": "Мясной микс с говядиной и колбасками, 30 см",
+                    "extra_price": 60
+                },
+                {
+                    "title": "Овощи и грибы, 30 см",
+                    "extra_price": 80
+                },
+                {
+                    "title": "Песто, 30 см",
+                    "extra_price": 90
+                },
+                {
+                    "title": "Жюльен, 30 см",
+                    "extra_price": 100
+                },
+                {
+                    "title": "Сырный цыпленок, 30 см",
+                    "extra_price": 100
+                },
+                {
+                    "title": "Диабло, 30 см",
+                    "extra_price": 200
+                },
+                {
+                    "title": "Карбонара, 30 см",
+                    "extra_price": 180
+                },
+                {
+                    "title": "Креветки со сладким чили, 30 см",
+                    "extra_price": 90
+                },
+                {
+                    "title": "Цыпленок барбекю, 30 см",
+                    "extra_price": 180
+                },
+                {
+                    "title": "Додо, 30 см",
+                    "extra_price": 310
+                },
+                {
+                    "title": "Цыпленок Ранч, 30 см",
+                    "extra_price": 200
+                }
+            ],
+            "slot_2": [
+                {
+                    "title": "Бургер-пицца, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Ветчина и сыр, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Двойной цыпленок, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Ветчина и грибы, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Гавайская, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Колбаски барбекю, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Маргарита, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Пепперони, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Четыре сезона, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Чилл Грилл, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Аррива!, 30 см",
+                    "extra_price": 120
+                },
+                {
+                    "title": "Бефстроганов, 30 см",
+                    "extra_price": 50
+                },
+                {
+                    "title": "Баварская, 30 см",
+                    "extra_price": 10
+                },
+                {
+                    "title": "Двойная пепперони, 30 см",
+                    "extra_price": 120
+                },
+                {
+                    "title": "Додо микс, 30 см",
+                    "extra_price": 70
+                },
+                {
+                    "title": "Мясная, 30 см",
+                    "extra_price": 80
+                },
+                {
+                    "title": "Мясная с аджикой, 30 см",
+                    "extra_price": 50
+                },
+                {
+                    "title": "Мясной микс с говядиной и колбасками, 30 см",
+                    "extra_price": 60
+                },
+                {
+                    "title": "Овощи и грибы, 30 см",
+                    "extra_price": 80
+                },
+                {
+                    "title": "Песто, 30 см",
+                    "extra_price": 90
+                },
+                {
+                    "title": "Жюльен, 30 см",
+                    "extra_price": 100
+                },
+                {
+                    "title": "Сырный цыпленок, 30 см",
+                    "extra_price": 100
+                },
+                {
+                    "title": "Диабло, 30 см",
+                    "extra_price": 200
+                },
+                {
+                    "title": "Карбонара, 30 см",
+                    "extra_price": 180
+                },
+                {
+                    "title": "Креветки со сладким чили, 30 см",
+                    "extra_price": 90
+                },
+                {
+                    "title": "Цыпленок барбекю, 30 см",
+                    "extra_price": 180
+                },
+                {
+                    "title": "Додо, 30 см",
+                    "extra_price": 310
+                },
+                {
+                    "title": "Цыпленок Ранч, 30 см",
+                    "extra_price": 200
+                }
+            ],
+            "slot_3": [
+                {
+                    "title": "Ветчина и грибы, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Ветчина и сыр, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Двойной цыпленок, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Бургер-пицца, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Гавайская, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Колбаски барбекю, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Маргарита, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Пепперони, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Четыре сезона, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Чилл Грилл, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Аррива!, 30 см",
+                    "extra_price": 120
+                },
+                {
+                    "title": "Бефстроганов, 30 см",
+                    "extra_price": 50
+                },
+                {
+                    "title": "Баварская, 30 см",
+                    "extra_price": 10
+                },
+                {
+                    "title": "Двойная пепперони, 30 см",
+                    "extra_price": 120
+                },
+                {
+                    "title": "Додо микс, 30 см",
+                    "extra_price": 70
+                },
+                {
+                    "title": "Мясная, 30 см",
+                    "extra_price": 80
+                },
+                {
+                    "title": "Мясная с аджикой, 30 см",
+                    "extra_price": 50
+                },
+                {
+                    "title": "Мясной микс с говядиной и колбасками, 30 см",
+                    "extra_price": 60
+                },
+                {
+                    "title": "Овощи и грибы, 30 см",
+                    "extra_price": 80
+                },
+                {
+                    "title": "Песто, 30 см",
+                    "extra_price": 90
+                },
+                {
+                    "title": "Жюльен, 30 см",
+                    "extra_price": 100
+                },
+                {
+                    "title": "Сырный цыпленок, 30 см",
+                    "extra_price": 100
+                },
+                {
+                    "title": "Диабло, 30 см",
+                    "extra_price": 200
+                },
+                {
+                    "title": "Карбонара, 30 см",
+                    "extra_price": 180
+                },
+                {
+                    "title": "Креветки со сладким чили, 30 см",
+                    "extra_price": 90
+                },
+                {
+                    "title": "Цыпленок барбекю, 30 см",
+                    "extra_price": 180
+                },
+                {
+                    "title": "Додо, 30 см",
+                    "extra_price": 310
+                },
+                {
+                    "title": "Цыпленок Ранч, 30 см",
+                    "extra_price": 200
+                }
+            ],
+            "slot_4": [
+                {
+                    "title": "Гавайская, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Ветчина и сыр, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Двойной цыпленок, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Бургер-пицца, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Ветчина и грибы, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Колбаски барбекю, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Маргарита, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Пепперони, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Четыре сезона, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Чилл Грилл, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Аррива!, 30 см",
+                    "extra_price": 120
+                },
+                {
+                    "title": "Бефстроганов, 30 см",
+                    "extra_price": 50
+                },
+                {
+                    "title": "Баварская, 30 см",
+                    "extra_price": 10
+                },
+                {
+                    "title": "Двойная пепперони, 30 см",
+                    "extra_price": 120
+                },
+                {
+                    "title": "Додо микс, 30 см",
+                    "extra_price": 70
+                },
+                {
+                    "title": "Мясная, 30 см",
+                    "extra_price": 80
+                },
+                {
+                    "title": "Мясная с аджикой, 30 см",
+                    "extra_price": 50
+                },
+                {
+                    "title": "Мясной микс с говядиной и колбасками, 30 см",
+                    "extra_price": 60
+                },
+                {
+                    "title": "Овощи и грибы, 30 см",
+                    "extra_price": 80
+                },
+                {
+                    "title": "Песто, 30 см",
+                    "extra_price": 90
+                },
+                {
+                    "title": "Жюльен, 30 см",
+                    "extra_price": 100
+                },
+                {
+                    "title": "Сырный цыпленок, 30 см",
+                    "extra_price": 100
+                },
+                {
+                    "title": "Диабло, 30 см",
+                    "extra_price": 200
+                },
+                {
+                    "title": "Карбонара, 30 см",
+                    "extra_price": 180
+                },
+                {
+                    "title": "Креветки со сладким чили, 30 см",
+                    "extra_price": 90
+                },
+                {
+                    "title": "Цыпленок барбекю, 30 см",
+                    "extra_price": 180
+                },
+                {
+                    "title": "Додо, 30 см",
+                    "extra_price": 310
+                },
+                {
+                    "title": "Цыпленок Ранч, 30 см",
+                    "extra_price": 200
+                }
+            ]
+        }
+    },
+    {
+        "title": "7 пицц",
+        "price": 4349,
+        "items": {
+            "slot_0": [
+                {
+                    "title": "Чилл Грилл, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Ветчина и сыр, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Двойной цыпленок, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Бургер-пицца, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Ветчина и грибы, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Гавайская, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Колбаски барбекю, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Маргарита, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Пепперони, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Четыре сезона, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Аррива!, 30 см",
+                    "extra_price": 110
+                },
+                {
+                    "title": "Бефстроганов, 30 см",
+                    "extra_price": 50
+                },
+                {
+                    "title": "Баварская, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Двойная пепперони, 30 см",
+                    "extra_price": 110
+                },
+                {
+                    "title": "Додо микс, 30 см",
+                    "extra_price": 60
+                },
+                {
+                    "title": "Мясная, 30 см",
+                    "extra_price": 70
+                },
+                {
+                    "title": "Мясная с аджикой, 30 см",
+                    "extra_price": 50
+                },
+                {
+                    "title": "Мясной микс с говядиной и колбасками, 30 см",
+                    "extra_price": 50
+                },
+                {
+                    "title": "Овощи и грибы, 30 см",
+                    "extra_price": 70
+                },
+                {
+                    "title": "Песто, 30 см",
+                    "extra_price": 80
+                },
+                {
+                    "title": "Жюльен, 30 см",
+                    "extra_price": 90
+                },
+                {
+                    "title": "Сырный цыпленок, 30 см",
+                    "extra_price": 90
+                },
+                {
+                    "title": "Диабло, 30 см",
+                    "extra_price": 190
+                },
+                {
+                    "title": "Карбонара, 30 см",
+                    "extra_price": 170
+                },
+                {
+                    "title": "Креветки со сладким чили, 30 см",
+                    "extra_price": 80
+                },
+                {
+                    "title": "Цыпленок барбекю, 30 см",
+                    "extra_price": 170
+                },
+                {
+                    "title": "Додо, 30 см",
+                    "extra_price": 300
+                },
+                {
+                    "title": "Цыпленок Ранч, 30 см",
+                    "extra_price": 190
+                }
+            ],
+            "slot_1": [
+                {
+                    "title": "Ветчина и сыр, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Двойной цыпленок, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Бургер-пицца, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Ветчина и грибы, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Гавайская, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Колбаски барбекю, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Маргарита, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Пепперони, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Четыре сезона, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Чилл Грилл, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Аррива!, 30 см",
+                    "extra_price": 110
+                },
+                {
+                    "title": "Бефстроганов, 30 см",
+                    "extra_price": 50
+                },
+                {
+                    "title": "Баварская, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Двойная пепперони, 30 см",
+                    "extra_price": 110
+                },
+                {
+                    "title": "Додо микс, 30 см",
+                    "extra_price": 60
+                },
+                {
+                    "title": "Мясная, 30 см",
+                    "extra_price": 70
+                },
+                {
+                    "title": "Мясная с аджикой, 30 см",
+                    "extra_price": 50
+                },
+                {
+                    "title": "Мясной микс с говядиной и колбасками, 30 см",
+                    "extra_price": 50
+                },
+                {
+                    "title": "Овощи и грибы, 30 см",
+                    "extra_price": 70
+                },
+                {
+                    "title": "Песто, 30 см",
+                    "extra_price": 80
+                },
+                {
+                    "title": "Жюльен, 30 см",
+                    "extra_price": 90
+                },
+                {
+                    "title": "Сырный цыпленок, 30 см",
+                    "extra_price": 90
+                },
+                {
+                    "title": "Диабло, 30 см",
+                    "extra_price": 190
+                },
+                {
+                    "title": "Карбонара, 30 см",
+                    "extra_price": 170
+                },
+                {
+                    "title": "Креветки со сладким чили, 30 см",
+                    "extra_price": 80
+                },
+                {
+                    "title": "Цыпленок барбекю, 30 см",
+                    "extra_price": 170
+                },
+                {
+                    "title": "Додо, 30 см",
+                    "extra_price": 300
+                },
+                {
+                    "title": "Цыпленок Ранч, 30 см",
+                    "extra_price": 190
+                }
+            ],
+            "slot_2": [
+                {
+                    "title": "Пепперони, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Ветчина и сыр, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Двойной цыпленок, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Бургер-пицца, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Ветчина и грибы, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Гавайская, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Колбаски барбекю, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Маргарита, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Четыре сезона, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Чилл Грилл, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Аррива!, 30 см",
+                    "extra_price": 110
+                },
+                {
+                    "title": "Бефстроганов, 30 см",
+                    "extra_price": 50
+                },
+                {
+                    "title": "Баварская, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Двойная пепперони, 30 см",
+                    "extra_price": 110
+                },
+                {
+                    "title": "Додо микс, 30 см",
+                    "extra_price": 60
+                },
+                {
+                    "title": "Мясная, 30 см",
+                    "extra_price": 70
+                },
+                {
+                    "title": "Мясная с аджикой, 30 см",
+                    "extra_price": 50
+                },
+                {
+                    "title": "Мясной микс с говядиной и колбасками, 30 см",
+                    "extra_price": 50
+                },
+                {
+                    "title": "Овощи и грибы, 30 см",
+                    "extra_price": 70
+                },
+                {
+                    "title": "Песто, 30 см",
+                    "extra_price": 80
+                },
+                {
+                    "title": "Жюльен, 30 см",
+                    "extra_price": 90
+                },
+                {
+                    "title": "Сырный цыпленок, 30 см",
+                    "extra_price": 90
+                },
+                {
+                    "title": "Диабло, 30 см",
+                    "extra_price": 190
+                },
+                {
+                    "title": "Карбонара, 30 см",
+                    "extra_price": 170
+                },
+                {
+                    "title": "Креветки со сладким чили, 30 см",
+                    "extra_price": 80
+                },
+                {
+                    "title": "Цыпленок барбекю, 30 см",
+                    "extra_price": 170
+                },
+                {
+                    "title": "Додо, 30 см",
+                    "extra_price": 300
+                },
+                {
+                    "title": "Цыпленок Ранч, 30 см",
+                    "extra_price": 190
+                }
+            ],
+            "slot_3": [
+                {
+                    "title": "Двойной цыпленок, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Ветчина и сыр, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Бургер-пицца, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Ветчина и грибы, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Гавайская, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Колбаски барбекю, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Маргарита, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Пепперони, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Четыре сезона, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Чилл Грилл, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Аррива!, 30 см",
+                    "extra_price": 110
+                },
+                {
+                    "title": "Бефстроганов, 30 см",
+                    "extra_price": 50
+                },
+                {
+                    "title": "Баварская, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Двойная пепперони, 30 см",
+                    "extra_price": 110
+                },
+                {
+                    "title": "Додо микс, 30 см",
+                    "extra_price": 60
+                },
+                {
+                    "title": "Мясная, 30 см",
+                    "extra_price": 70
+                },
+                {
+                    "title": "Мясная с аджикой, 30 см",
+                    "extra_price": 50
+                },
+                {
+                    "title": "Мясной микс с говядиной и колбасками, 30 см",
+                    "extra_price": 50
+                },
+                {
+                    "title": "Овощи и грибы, 30 см",
+                    "extra_price": 70
+                },
+                {
+                    "title": "Песто, 30 см",
+                    "extra_price": 80
+                },
+                {
+                    "title": "Жюльен, 30 см",
+                    "extra_price": 90
+                },
+                {
+                    "title": "Сырный цыпленок, 30 см",
+                    "extra_price": 90
+                },
+                {
+                    "title": "Диабло, 30 см",
+                    "extra_price": 190
+                },
+                {
+                    "title": "Карбонара, 30 см",
+                    "extra_price": 170
+                },
+                {
+                    "title": "Креветки со сладким чили, 30 см",
+                    "extra_price": 80
+                },
+                {
+                    "title": "Цыпленок барбекю, 30 см",
+                    "extra_price": 170
+                },
+                {
+                    "title": "Додо, 30 см",
+                    "extra_price": 300
+                },
+                {
+                    "title": "Цыпленок Ранч, 30 см",
+                    "extra_price": 190
+                }
+            ],
+            "slot_4": [
+                {
+                    "title": "Бургер-пицца, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Ветчина и сыр, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Двойной цыпленок, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Ветчина и грибы, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Гавайская, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Колбаски барбекю, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Маргарита, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Пепперони, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Четыре сезона, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Чилл Грилл, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Аррива!, 30 см",
+                    "extra_price": 110
+                },
+                {
+                    "title": "Бефстроганов, 30 см",
+                    "extra_price": 50
+                },
+                {
+                    "title": "Баварская, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Двойная пепперони, 30 см",
+                    "extra_price": 110
+                },
+                {
+                    "title": "Додо микс, 30 см",
+                    "extra_price": 60
+                },
+                {
+                    "title": "Мясная, 30 см",
+                    "extra_price": 70
+                },
+                {
+                    "title": "Мясная с аджикой, 30 см",
+                    "extra_price": 50
+                },
+                {
+                    "title": "Мясной микс с говядиной и колбасками, 30 см",
+                    "extra_price": 50
+                },
+                {
+                    "title": "Овощи и грибы, 30 см",
+                    "extra_price": 70
+                },
+                {
+                    "title": "Песто, 30 см",
+                    "extra_price": 80
+                },
+                {
+                    "title": "Жюльен, 30 см",
+                    "extra_price": 90
+                },
+                {
+                    "title": "Сырный цыпленок, 30 см",
+                    "extra_price": 90
+                },
+                {
+                    "title": "Диабло, 30 см",
+                    "extra_price": 190
+                },
+                {
+                    "title": "Карбонара, 30 см",
+                    "extra_price": 170
+                },
+                {
+                    "title": "Креветки со сладким чили, 30 см",
+                    "extra_price": 80
+                },
+                {
+                    "title": "Цыпленок барбекю, 30 см",
+                    "extra_price": 170
+                },
+                {
+                    "title": "Додо, 30 см",
+                    "extra_price": 300
+                },
+                {
+                    "title": "Цыпленок Ранч, 30 см",
+                    "extra_price": 190
+                }
+            ],
+            "slot_5": [
+                {
+                    "title": "Ветчина и грибы, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Ветчина и сыр, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Двойной цыпленок, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Бургер-пицца, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Гавайская, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Колбаски барбекю, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Маргарита, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Пепперони, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Четыре сезона, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Чилл Грилл, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Аррива!, 30 см",
+                    "extra_price": 110
+                },
+                {
+                    "title": "Бефстроганов, 30 см",
+                    "extra_price": 50
+                },
+                {
+                    "title": "Баварская, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Двойная пепперони, 30 см",
+                    "extra_price": 110
+                },
+                {
+                    "title": "Додо микс, 30 см",
+                    "extra_price": 60
+                },
+                {
+                    "title": "Мясная, 30 см",
+                    "extra_price": 70
+                },
+                {
+                    "title": "Мясная с аджикой, 30 см",
+                    "extra_price": 50
+                },
+                {
+                    "title": "Мясной микс с говядиной и колбасками, 30 см",
+                    "extra_price": 50
+                },
+                {
+                    "title": "Овощи и грибы, 30 см",
+                    "extra_price": 70
+                },
+                {
+                    "title": "Песто, 30 см",
+                    "extra_price": 80
+                },
+                {
+                    "title": "Жюльен, 30 см",
+                    "extra_price": 90
+                },
+                {
+                    "title": "Сырный цыпленок, 30 см",
+                    "extra_price": 90
+                },
+                {
+                    "title": "Диабло, 30 см",
+                    "extra_price": 190
+                },
+                {
+                    "title": "Карбонара, 30 см",
+                    "extra_price": 170
+                },
+                {
+                    "title": "Креветки со сладким чили, 30 см",
+                    "extra_price": 80
+                },
+                {
+                    "title": "Цыпленок барбекю, 30 см",
+                    "extra_price": 170
+                },
+                {
+                    "title": "Додо, 30 см",
+                    "extra_price": 300
+                },
+                {
+                    "title": "Цыпленок Ранч, 30 см",
+                    "extra_price": 190
+                }
+            ],
+            "slot_6": [
+                {
+                    "title": "Гавайская, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Ветчина и сыр, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Двойной цыпленок, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Бургер-пицца, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Ветчина и грибы, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Колбаски барбекю, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Маргарита, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Пепперони, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Четыре сезона, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Чилл Грилл, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Аррива!, 30 см",
+                    "extra_price": 110
+                },
+                {
+                    "title": "Бефстроганов, 30 см",
+                    "extra_price": 50
+                },
+                {
+                    "title": "Баварская, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Двойная пепперони, 30 см",
+                    "extra_price": 110
+                },
+                {
+                    "title": "Додо микс, 30 см",
+                    "extra_price": 60
+                },
+                {
+                    "title": "Мясная, 30 см",
+                    "extra_price": 70
+                },
+                {
+                    "title": "Мясная с аджикой, 30 см",
+                    "extra_price": 50
+                },
+                {
+                    "title": "Мясной микс с говядиной и колбасками, 30 см",
+                    "extra_price": 50
+                },
+                {
+                    "title": "Овощи и грибы, 30 см",
+                    "extra_price": 70
+                },
+                {
+                    "title": "Песто, 30 см",
+                    "extra_price": 80
+                },
+                {
+                    "title": "Жюльен, 30 см",
+                    "extra_price": 90
+                },
+                {
+                    "title": "Сырный цыпленок, 30 см",
+                    "extra_price": 90
+                },
+                {
+                    "title": "Диабло, 30 см",
+                    "extra_price": 190
+                },
+                {
+                    "title": "Карбонара, 30 см",
+                    "extra_price": 170
+                },
+                {
+                    "title": "Креветки со сладким чили, 30 см",
+                    "extra_price": 80
+                },
+                {
+                    "title": "Цыпленок барбекю, 30 см",
+                    "extra_price": 170
+                },
+                {
+                    "title": "Додо, 30 см",
+                    "extra_price": 300
+                },
+                {
+                    "title": "Цыпленок Ранч, 30 см",
+                    "extra_price": 190
+                }
+            ]
+        }
+    },
+    {
+        "title": "10 пицц",
+        "price": 5999,
+        "items": {
+            "slot_0": [
+                {
+                    "title": "Чилл Грилл, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Ветчина и сыр, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Двойной цыпленок, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Бургер-пицца, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Ветчина и грибы, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Гавайская, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Колбаски барбекю, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Маргарита, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Пепперони, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Четыре сезона, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Аррива!, 30 см",
+                    "extra_price": 110
+                },
+                {
+                    "title": "Бефстроганов, 30 см",
+                    "extra_price": 50
+                },
+                {
+                    "title": "Баварская, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Двойная пепперони, 30 см",
+                    "extra_price": 110
+                },
+                {
+                    "title": "Додо микс, 30 см",
+                    "extra_price": 60
+                },
+                {
+                    "title": "Мясная, 30 см",
+                    "extra_price": 70
+                },
+                {
+                    "title": "Мясная с аджикой, 30 см",
+                    "extra_price": 50
+                },
+                {
+                    "title": "Мясной микс с говядиной и колбасками, 30 см",
+                    "extra_price": 50
+                },
+                {
+                    "title": "Овощи и грибы, 30 см",
+                    "extra_price": 70
+                },
+                {
+                    "title": "Песто, 30 см",
+                    "extra_price": 80
+                },
+                {
+                    "title": "Жюльен, 30 см",
+                    "extra_price": 90
+                },
+                {
+                    "title": "Сырный цыпленок, 30 см",
+                    "extra_price": 90
+                },
+                {
+                    "title": "Диабло, 30 см",
+                    "extra_price": 190
+                },
+                {
+                    "title": "Карбонара, 30 см",
+                    "extra_price": 170
+                },
+                {
+                    "title": "Креветки со сладким чили, 30 см",
+                    "extra_price": 80
+                },
+                {
+                    "title": "Цыпленок барбекю, 30 см",
+                    "extra_price": 170
+                },
+                {
+                    "title": "Додо, 30 см",
+                    "extra_price": 300
+                },
+                {
+                    "title": "Цыпленок Ранч, 30 см",
+                    "extra_price": 190
+                }
+            ],
+            "slot_1": [
+                {
+                    "title": "Ветчина и сыр, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Двойной цыпленок, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Бургер-пицца, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Ветчина и грибы, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Гавайская, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Колбаски барбекю, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Маргарита, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Пепперони, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Четыре сезона, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Чилл Грилл, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Аррива!, 30 см",
+                    "extra_price": 110
+                },
+                {
+                    "title": "Бефстроганов, 30 см",
+                    "extra_price": 50
+                },
+                {
+                    "title": "Баварская, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Двойная пепперони, 30 см",
+                    "extra_price": 110
+                },
+                {
+                    "title": "Додо микс, 30 см",
+                    "extra_price": 60
+                },
+                {
+                    "title": "Мясная, 30 см",
+                    "extra_price": 70
+                },
+                {
+                    "title": "Мясная с аджикой, 30 см",
+                    "extra_price": 50
+                },
+                {
+                    "title": "Мясной микс с говядиной и колбасками, 30 см",
+                    "extra_price": 50
+                },
+                {
+                    "title": "Овощи и грибы, 30 см",
+                    "extra_price": 70
+                },
+                {
+                    "title": "Песто, 30 см",
+                    "extra_price": 80
+                },
+                {
+                    "title": "Жюльен, 30 см",
+                    "extra_price": 90
+                },
+                {
+                    "title": "Сырный цыпленок, 30 см",
+                    "extra_price": 90
+                },
+                {
+                    "title": "Диабло, 30 см",
+                    "extra_price": 190
+                },
+                {
+                    "title": "Карбонара, 30 см",
+                    "extra_price": 170
+                },
+                {
+                    "title": "Креветки со сладким чили, 30 см",
+                    "extra_price": 80
+                },
+                {
+                    "title": "Цыпленок барбекю, 30 см",
+                    "extra_price": 170
+                },
+                {
+                    "title": "Додо, 30 см",
+                    "extra_price": 300
+                },
+                {
+                    "title": "Цыпленок Ранч, 30 см",
+                    "extra_price": 190
+                }
+            ],
+            "slot_2": [
+                {
+                    "title": "Пепперони, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Ветчина и сыр, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Двойной цыпленок, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Бургер-пицца, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Ветчина и грибы, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Гавайская, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Колбаски барбекю, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Маргарита, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Четыре сезона, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Чилл Грилл, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Аррива!, 30 см",
+                    "extra_price": 110
+                },
+                {
+                    "title": "Бефстроганов, 30 см",
+                    "extra_price": 50
+                },
+                {
+                    "title": "Баварская, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Двойная пепперони, 30 см",
+                    "extra_price": 110
+                },
+                {
+                    "title": "Додо микс, 30 см",
+                    "extra_price": 60
+                },
+                {
+                    "title": "Мясная, 30 см",
+                    "extra_price": 70
+                },
+                {
+                    "title": "Мясная с аджикой, 30 см",
+                    "extra_price": 50
+                },
+                {
+                    "title": "Мясной микс с говядиной и колбасками, 30 см",
+                    "extra_price": 50
+                },
+                {
+                    "title": "Овощи и грибы, 30 см",
+                    "extra_price": 70
+                },
+                {
+                    "title": "Песто, 30 см",
+                    "extra_price": 80
+                },
+                {
+                    "title": "Жюльен, 30 см",
+                    "extra_price": 90
+                },
+                {
+                    "title": "Сырный цыпленок, 30 см",
+                    "extra_price": 90
+                },
+                {
+                    "title": "Диабло, 30 см",
+                    "extra_price": 190
+                },
+                {
+                    "title": "Карбонара, 30 см",
+                    "extra_price": 170
+                },
+                {
+                    "title": "Креветки со сладким чили, 30 см",
+                    "extra_price": 80
+                },
+                {
+                    "title": "Цыпленок барбекю, 30 см",
+                    "extra_price": 170
+                },
+                {
+                    "title": "Додо, 30 см",
+                    "extra_price": 300
+                },
+                {
+                    "title": "Цыпленок Ранч, 30 см",
+                    "extra_price": 190
+                }
+            ],
+            "slot_3": [
+                {
+                    "title": "Двойной цыпленок, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Ветчина и сыр, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Бургер-пицца, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Ветчина и грибы, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Гавайская, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Колбаски барбекю, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Маргарита, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Пепперони, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Четыре сезона, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Чилл Грилл, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Аррива!, 30 см",
+                    "extra_price": 110
+                },
+                {
+                    "title": "Бефстроганов, 30 см",
+                    "extra_price": 50
+                },
+                {
+                    "title": "Баварская, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Двойная пепперони, 30 см",
+                    "extra_price": 110
+                },
+                {
+                    "title": "Додо микс, 30 см",
+                    "extra_price": 60
+                },
+                {
+                    "title": "Мясная, 30 см",
+                    "extra_price": 70
+                },
+                {
+                    "title": "Мясная с аджикой, 30 см",
+                    "extra_price": 50
+                },
+                {
+                    "title": "Мясной микс с говядиной и колбасками, 30 см",
+                    "extra_price": 50
+                },
+                {
+                    "title": "Овощи и грибы, 30 см",
+                    "extra_price": 70
+                },
+                {
+                    "title": "Песто, 30 см",
+                    "extra_price": 80
+                },
+                {
+                    "title": "Жюльен, 30 см",
+                    "extra_price": 90
+                },
+                {
+                    "title": "Сырный цыпленок, 30 см",
+                    "extra_price": 90
+                },
+                {
+                    "title": "Диабло, 30 см",
+                    "extra_price": 190
+                },
+                {
+                    "title": "Карбонара, 30 см",
+                    "extra_price": 170
+                },
+                {
+                    "title": "Креветки со сладким чили, 30 см",
+                    "extra_price": 80
+                },
+                {
+                    "title": "Цыпленок барбекю, 30 см",
+                    "extra_price": 170
+                },
+                {
+                    "title": "Додо, 30 см",
+                    "extra_price": 300
+                },
+                {
+                    "title": "Цыпленок Ранч, 30 см",
+                    "extra_price": 190
+                }
+            ],
+            "slot_4": [
+                {
+                    "title": "Бургер-пицца, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Ветчина и сыр, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Двойной цыпленок, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Ветчина и грибы, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Гавайская, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Колбаски барбекю, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Маргарита, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Пепперони, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Четыре сезона, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Чилл Грилл, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Аррива!, 30 см",
+                    "extra_price": 110
+                },
+                {
+                    "title": "Бефстроганов, 30 см",
+                    "extra_price": 50
+                },
+                {
+                    "title": "Баварская, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Двойная пепперони, 30 см",
+                    "extra_price": 110
+                },
+                {
+                    "title": "Додо микс, 30 см",
+                    "extra_price": 60
+                },
+                {
+                    "title": "Мясная, 30 см",
+                    "extra_price": 70
+                },
+                {
+                    "title": "Мясная с аджикой, 30 см",
+                    "extra_price": 50
+                },
+                {
+                    "title": "Мясной микс с говядиной и колбасками, 30 см",
+                    "extra_price": 50
+                },
+                {
+                    "title": "Овощи и грибы, 30 см",
+                    "extra_price": 70
+                },
+                {
+                    "title": "Песто, 30 см",
+                    "extra_price": 80
+                },
+                {
+                    "title": "Жюльен, 30 см",
+                    "extra_price": 90
+                },
+                {
+                    "title": "Сырный цыпленок, 30 см",
+                    "extra_price": 90
+                },
+                {
+                    "title": "Диабло, 30 см",
+                    "extra_price": 190
+                },
+                {
+                    "title": "Карбонара, 30 см",
+                    "extra_price": 170
+                },
+                {
+                    "title": "Креветки со сладким чили, 30 см",
+                    "extra_price": 80
+                },
+                {
+                    "title": "Цыпленок барбекю, 30 см",
+                    "extra_price": 170
+                },
+                {
+                    "title": "Додо, 30 см",
+                    "extra_price": 300
+                },
+                {
+                    "title": "Цыпленок Ранч, 30 см",
+                    "extra_price": 190
+                }
+            ],
+            "slot_5": [
+                {
+                    "title": "Ветчина и грибы, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Ветчина и сыр, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Двойной цыпленок, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Бургер-пицца, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Гавайская, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Колбаски барбекю, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Маргарита, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Пепперони, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Четыре сезона, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Чилл Грилл, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Аррива!, 30 см",
+                    "extra_price": 110
+                },
+                {
+                    "title": "Бефстроганов, 30 см",
+                    "extra_price": 50
+                },
+                {
+                    "title": "Баварская, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Двойная пепперони, 30 см",
+                    "extra_price": 110
+                },
+                {
+                    "title": "Додо микс, 30 см",
+                    "extra_price": 60
+                },
+                {
+                    "title": "Мясная, 30 см",
+                    "extra_price": 70
+                },
+                {
+                    "title": "Мясная с аджикой, 30 см",
+                    "extra_price": 50
+                },
+                {
+                    "title": "Мясной микс с говядиной и колбасками, 30 см",
+                    "extra_price": 50
+                },
+                {
+                    "title": "Овощи и грибы, 30 см",
+                    "extra_price": 70
+                },
+                {
+                    "title": "Песто, 30 см",
+                    "extra_price": 80
+                },
+                {
+                    "title": "Жюльен, 30 см",
+                    "extra_price": 90
+                },
+                {
+                    "title": "Сырный цыпленок, 30 см",
+                    "extra_price": 90
+                },
+                {
+                    "title": "Диабло, 30 см",
+                    "extra_price": 190
+                },
+                {
+                    "title": "Карбонара, 30 см",
+                    "extra_price": 170
+                },
+                {
+                    "title": "Креветки со сладким чили, 30 см",
+                    "extra_price": 80
+                },
+                {
+                    "title": "Цыпленок барбекю, 30 см",
+                    "extra_price": 170
+                },
+                {
+                    "title": "Додо, 30 см",
+                    "extra_price": 300
+                },
+                {
+                    "title": "Цыпленок Ранч, 30 см",
+                    "extra_price": 190
+                }
+            ],
+            "slot_6": [
+                {
+                    "title": "Гавайская, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Ветчина и сыр, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Двойной цыпленок, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Бургер-пицца, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Ветчина и грибы, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Колбаски барбекю, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Маргарита, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Пепперони, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Четыре сезона, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Чилл Грилл, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Аррива!, 30 см",
+                    "extra_price": 110
+                },
+                {
+                    "title": "Бефстроганов, 30 см",
+                    "extra_price": 50
+                },
+                {
+                    "title": "Баварская, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Двойная пепперони, 30 см",
+                    "extra_price": 110
+                },
+                {
+                    "title": "Додо микс, 30 см",
+                    "extra_price": 60
+                },
+                {
+                    "title": "Мясная, 30 см",
+                    "extra_price": 70
+                },
+                {
+                    "title": "Мясная с аджикой, 30 см",
+                    "extra_price": 50
+                },
+                {
+                    "title": "Мясной микс с говядиной и колбасками, 30 см",
+                    "extra_price": 50
+                },
+                {
+                    "title": "Овощи и грибы, 30 см",
+                    "extra_price": 70
+                },
+                {
+                    "title": "Песто, 30 см",
+                    "extra_price": 80
+                },
+                {
+                    "title": "Жюльен, 30 см",
+                    "extra_price": 90
+                },
+                {
+                    "title": "Сырный цыпленок, 30 см",
+                    "extra_price": 90
+                },
+                {
+                    "title": "Диабло, 30 см",
+                    "extra_price": 190
+                },
+                {
+                    "title": "Карбонара, 30 см",
+                    "extra_price": 170
+                },
+                {
+                    "title": "Креветки со сладким чили, 30 см",
+                    "extra_price": 80
+                },
+                {
+                    "title": "Цыпленок барбекю, 30 см",
+                    "extra_price": 170
+                },
+                {
+                    "title": "Додо, 30 см",
+                    "extra_price": 300
+                },
+                {
+                    "title": "Цыпленок Ранч, 30 см",
+                    "extra_price": 190
+                }
+            ],
+            "slot_7": [
+                {
+                    "title": "Колбаски барбекю, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Ветчина и сыр, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Двойной цыпленок, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Бургер-пицца, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Ветчина и грибы, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Гавайская, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Маргарита, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Пепперони, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Четыре сезона, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Чилл Грилл, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Аррива!, 30 см",
+                    "extra_price": 110
+                },
+                {
+                    "title": "Бефстроганов, 30 см",
+                    "extra_price": 50
+                },
+                {
+                    "title": "Баварская, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Двойная пепперони, 30 см",
+                    "extra_price": 110
+                },
+                {
+                    "title": "Додо микс, 30 см",
+                    "extra_price": 60
+                },
+                {
+                    "title": "Мясная, 30 см",
+                    "extra_price": 70
+                },
+                {
+                    "title": "Мясная с аджикой, 30 см",
+                    "extra_price": 50
+                },
+                {
+                    "title": "Мясной микс с говядиной и колбасками, 30 см",
+                    "extra_price": 50
+                },
+                {
+                    "title": "Овощи и грибы, 30 см",
+                    "extra_price": 70
+                },
+                {
+                    "title": "Песто, 30 см",
+                    "extra_price": 80
+                },
+                {
+                    "title": "Жюльен, 30 см",
+                    "extra_price": 90
+                },
+                {
+                    "title": "Сырный цыпленок, 30 см",
+                    "extra_price": 90
+                },
+                {
+                    "title": "Диабло, 30 см",
+                    "extra_price": 190
+                },
+                {
+                    "title": "Карбонара, 30 см",
+                    "extra_price": 170
+                },
+                {
+                    "title": "Креветки со сладким чили, 30 см",
+                    "extra_price": 80
+                },
+                {
+                    "title": "Цыпленок барбекю, 30 см",
+                    "extra_price": 170
+                },
+                {
+                    "title": "Додо, 30 см",
+                    "extra_price": 300
+                },
+                {
+                    "title": "Цыпленок Ранч, 30 см",
+                    "extra_price": 190
+                }
+            ],
+            "slot_8": [
+                {
+                    "title": "Маргарита, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Ветчина и сыр, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Двойной цыпленок, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Бургер-пицца, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Ветчина и грибы, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Гавайская, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Колбаски барбекю, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Пепперони, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Четыре сезона, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Чилл Грилл, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Аррива!, 30 см",
+                    "extra_price": 110
+                },
+                {
+                    "title": "Бефстроганов, 30 см",
+                    "extra_price": 50
+                },
+                {
+                    "title": "Баварская, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Двойная пепперони, 30 см",
+                    "extra_price": 110
+                },
+                {
+                    "title": "Додо микс, 30 см",
+                    "extra_price": 60
+                },
+                {
+                    "title": "Мясная, 30 см",
+                    "extra_price": 70
+                },
+                {
+                    "title": "Мясная с аджикой, 30 см",
+                    "extra_price": 50
+                },
+                {
+                    "title": "Мясной микс с говядиной и колбасками, 30 см",
+                    "extra_price": 50
+                },
+                {
+                    "title": "Овощи и грибы, 30 см",
+                    "extra_price": 70
+                },
+                {
+                    "title": "Песто, 30 см",
+                    "extra_price": 80
+                },
+                {
+                    "title": "Жюльен, 30 см",
+                    "extra_price": 90
+                },
+                {
+                    "title": "Сырный цыпленок, 30 см",
+                    "extra_price": 90
+                },
+                {
+                    "title": "Диабло, 30 см",
+                    "extra_price": 190
+                },
+                {
+                    "title": "Карбонара, 30 см",
+                    "extra_price": 170
+                },
+                {
+                    "title": "Креветки со сладким чили, 30 см",
+                    "extra_price": 80
+                },
+                {
+                    "title": "Цыпленок барбекю, 30 см",
+                    "extra_price": 170
+                },
+                {
+                    "title": "Додо, 30 см",
+                    "extra_price": 300
+                },
+                {
+                    "title": "Цыпленок Ранч, 30 см",
+                    "extra_price": 190
+                }
+            ],
+            "slot_9": [
+                {
+                    "title": "Четыре сезона, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Ветчина и сыр, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Двойной цыпленок, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Бургер-пицца, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Ветчина и грибы, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Гавайская, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Колбаски барбекю, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Маргарита, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Пепперони, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Чилл Грилл, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Аррива!, 30 см",
+                    "extra_price": 110
+                },
+                {
+                    "title": "Бефстроганов, 30 см",
+                    "extra_price": 50
+                },
+                {
+                    "title": "Баварская, 30 см",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Двойная пепперони, 30 см",
+                    "extra_price": 110
+                },
+                {
+                    "title": "Додо микс, 30 см",
+                    "extra_price": 60
+                },
+                {
+                    "title": "Мясная, 30 см",
+                    "extra_price": 70
+                },
+                {
+                    "title": "Мясная с аджикой, 30 см",
+                    "extra_price": 50
+                },
+                {
+                    "title": "Мясной микс с говядиной и колбасками, 30 см",
+                    "extra_price": 50
+                },
+                {
+                    "title": "Овощи и грибы, 30 см",
+                    "extra_price": 70
+                },
+                {
+                    "title": "Песто, 30 см",
+                    "extra_price": 80
+                },
+                {
+                    "title": "Жюльен, 30 см",
+                    "extra_price": 90
+                },
+                {
+                    "title": "Сырный цыпленок, 30 см",
+                    "extra_price": 90
+                },
+                {
+                    "title": "Диабло, 30 см",
+                    "extra_price": 190
+                },
+                {
+                    "title": "Карбонара, 30 см",
+                    "extra_price": 170
+                },
+                {
+                    "title": "Креветки со сладким чили, 30 см",
+                    "extra_price": 80
+                },
+                {
+                    "title": "Цыпленок барбекю, 30 см",
+                    "extra_price": 170
+                },
+                {
+                    "title": "Додо, 30 см",
+                    "extra_price": 300
+                },
+                {
+                    "title": "Цыпленок Ранч, 30 см",
+                    "extra_price": 190
+                }
+            ]
+        }
+    },
+    {
+        "title": "2 фирменные закуски",
+        "price": 399,
+        "items": {
+            "slot_0": [
+                {
+                    "title": "Додстер",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Острый Додстер",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Додстер с ветчиной",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Сырный Стартер",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Грибной Стартер",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Додстер Чилл Грилл",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Супермясной Додстер",
+                    "extra_price": 20
+                },
+                {
+                    "title": "Дэнвич ветчина и сыр",
+                    "extra_price": 70
+                },
+                {
+                    "title": "Дэнвич чоризо барбекю",
+                    "extra_price": 70
+                },
+                {
+                    "title": "Дэнвич с говядиной",
+                    "extra_price": 90
+                }
+            ],
+            "slot_1": [
+                {
+                    "title": "Острый Додстер",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Додстер",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Додстер с ветчиной",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Сырный Стартер",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Грибной Стартер",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Додстер Чилл Грилл",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Супермясной Додстер",
+                    "extra_price": 20
+                },
+                {
+                    "title": "Дэнвич ветчина и сыр",
+                    "extra_price": 70
+                },
+                {
+                    "title": "Дэнвич чоризо барбекю",
+                    "extra_price": 70
+                },
+                {
+                    "title": "Дэнвич с говядиной",
+                    "extra_price": 90
+                }
+            ]
+        }
+    },
+    {
+        "title": "2 десерта",
+        "price": 189,
+        "items": {
+            "slot_0": [
+                {
+                    "title": "Маффин Три шоколада",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Маффин Соленая карамель",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Шоколадный кукис",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Сорбет Клубничный гранат",
+                    "extra_price": 20
+                },
+                {
+                    "title": "Сорбет Лимонный фреш",
+                    "extra_price": 20
+                },
+                {
+                    "title": "Тирамису",
+                    "extra_price": 50
+                },
+                {
+                    "title": "Чизкейк Нью-Йорк",
+                    "extra_price": 50
+                },
+                {
+                    "title": "Эклеры-мини с заварным кремом",
+                    "extra_price": 50
+                },
+                {
+                    "title": "Чизкейк Банановый с шоколадным печеньем",
+                    "extra_price": 50
+                }
+            ],
+            "slot_1": [
+                {
+                    "title": "Маффин Соленая карамель",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Маффин Три шоколада",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Шоколадный кукис",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Сорбет Клубничный гранат",
+                    "extra_price": 20
+                },
+                {
+                    "title": "Сорбет Лимонный фреш",
+                    "extra_price": 20
+                },
+                {
+                    "title": "Тирамису",
+                    "extra_price": 50
+                },
+                {
+                    "title": "Чизкейк Нью-Йорк",
+                    "extra_price": 50
+                },
+                {
+                    "title": "Эклеры-мини с заварным кремом",
+                    "extra_price": 50
+                },
+                {
+                    "title": "Чизкейк Банановый с шоколадным печеньем",
+                    "extra_price": 50
+                }
+            ]
+        }
+    },
+    {
+        "title": "2 кофе: Латте или Капучино",
+        "price": 319,
+        "items": {
+            "slot_0": [
+                {
+                    "title": "Кофе Капучино",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Кофе Латте",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Кофе Карамельный капучино",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Кофе Ореховый латте",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Кофе Кокосовый латте",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Капучино Яблочный пирог",
+                    "extra_price": 0
+                }
+            ],
+            "slot_1": [
+                {
+                    "title": "Кофе Капучино",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Кофе Латте",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Кофе Карамельный капучино",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Кофе Ореховый латте",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Кофе Кокосовый латте",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Капучино Яблочный пирог",
+                    "extra_price": 0
+                }
+            ]
+        }
+    },
+    {
+        "title": "2 напитка",
+        "price": 199,
+        "items": {
+            "slot_0": [
+                {
+                    "title": "Добрый Кола",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Добрый Кола без сахара",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Добрый Кола Малина",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Добрый Манго-Маракуйя",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Добрый Апельсин",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Добрый Лимон-Лайм",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Лимонад Арбузный лайм",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Rich Tea Черный с лимоном",
+                    "extra_price": 10
+                },
+                {
+                    "title": "Rich Tea Зеленый",
+                    "extra_price": 10
+                },
+                {
+                    "title": "Rich Tea Зеленый с манго",
+                    "extra_price": 10
+                }
+            ],
+            "slot_1": [
+                {
+                    "title": "Добрый Кола",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Добрый Кола без сахара",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Добрый Кола Малина",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Добрый Манго-Маракуйя",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Добрый Апельсин",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Добрый Лимон-Лайм",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Лимонад Арбузный лайм",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Rich Tea Черный с лимоном",
+                    "extra_price": 10
+                },
+                {
+                    "title": "Rich Tea Зеленый",
+                    "extra_price": 10
+                },
+                {
+                    "title": "Rich Tea Зеленый с манго",
+                    "extra_price": 10
+                }
+            ]
+        }
+    },
+    {
+        "title": "2 соуса",
+        "price": 75,
+        "items": {
+            "slot_0": [
+                {
+                    "title": "Барбекю",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Медово-горчичный",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Сырный",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Чесночный",
+                    "extra_price": 0
+                }
+            ],
+            "slot_1": [
+                {
+                    "title": "Сырный",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Медово-горчичный",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Барбекю",
+                    "extra_price": 0
+                },
+                {
+                    "title": "Чесночный",
+                    "extra_price": 0
+                }
+            ]
+        }
+    }
+]
