@@ -15,10 +15,14 @@ import java.util.List;
 @RequestMapping("/general-menu")
 public class GeneralMenuController {
 
+    private final GeneralMenuService generalMenuService;
+    private final MenuImportService menuImportService;
+
     @Autowired
-    private GeneralMenuService generalMenuService;
-    @Autowired
-    private MenuImportService menuImportService;
+    public GeneralMenuController(GeneralMenuService generalMenuService, MenuImportService menuImportService) {
+        this.generalMenuService = generalMenuService;
+        this.menuImportService = menuImportService;
+    }
 
     @GetMapping
     public List<GeneralMenu> getAllGeneralMenus() {
