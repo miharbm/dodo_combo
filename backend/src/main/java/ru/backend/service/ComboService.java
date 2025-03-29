@@ -8,8 +8,12 @@ import ru.backend.repositories.ComboRepository;
 @Service
 public class ComboService {
 
+    private final ComboRepository comboRepository;
+
     @Autowired
-    private ComboRepository comboRepository;
+    public ComboService(ComboRepository comboRepository) {
+        this.comboRepository = comboRepository;
+    }
 
     public Combo getComboByTitle(String title) {
         return comboRepository.findByTitle(title);

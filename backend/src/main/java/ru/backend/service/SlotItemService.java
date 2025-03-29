@@ -8,8 +8,12 @@ import ru.backend.repositories.SlotItemRepository;
 @Service
 public class SlotItemService {
 
+    private final SlotItemRepository slotItemRepository;
+
     @Autowired
-    private SlotItemRepository slotItemRepository;
+    public SlotItemService(SlotItemRepository slotItemRepository) {
+        this.slotItemRepository = slotItemRepository;
+    }
 
     public SlotItem createSlotItem(SlotItem slotItem) {
         return slotItemRepository.save(slotItem);

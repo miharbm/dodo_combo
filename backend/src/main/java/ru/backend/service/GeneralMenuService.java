@@ -10,8 +10,12 @@ import java.util.List;
 @Service
 public class GeneralMenuService {
 
+    private final GeneralMenuRepository generalMenuRepository;
+
     @Autowired
-    private GeneralMenuRepository generalMenuRepository;
+    public GeneralMenuService (GeneralMenuRepository generalMenuRepository) {
+        this.generalMenuRepository = generalMenuRepository;
+    }
 
     public List<GeneralMenu> getAllGeneralMenus() {
         return generalMenuRepository.findAll();
