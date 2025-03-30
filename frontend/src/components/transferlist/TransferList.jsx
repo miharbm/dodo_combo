@@ -2,7 +2,7 @@ import {useGetGeneralMenuQuery} from "../../api/api.js";
 import {useState} from "react";
 import {
     Button,
-    Divider,
+    Divider, Fab,
     Grid,
     Paper,
     TextField,
@@ -10,7 +10,7 @@ import {
 import {Box} from "@mui/system";
 import TransferListForChoose from "./TransferListForChoose.jsx";
 import TransferListChosen from "./TransferListChosen.jsx";
-
+import ManageSearchOutlinedIcon from '@mui/icons-material/ManageSearchOutlined';
 
 const TransferList = () => {
     const {data} = useGetGeneralMenuQuery();
@@ -108,16 +108,8 @@ const TransferList = () => {
                     />
                 </Paper>
             </Grid>
-            <Grid item xs={12}>
-                <Button variant={"contained"}
-                        fullWidth={true}
-                >
-                    Отправить
-                </Button>
-            </Grid>
         </Grid>
     );
-
 }
 
 export default TransferList

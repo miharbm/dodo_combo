@@ -1,8 +1,9 @@
-import {Grid, IconButton, List, ListItem, ListItemText, Typography} from "@mui/material";
+import {Button, Fab, Grid, IconButton, List, ListItem, ListItemText, Typography} from "@mui/material";
 import {Box} from "@mui/system";
 import DeleteIcon from "@mui/icons-material/Delete";
 import AddIcon from "@mui/icons-material/Add";
 import RemoveIcon from "@mui/icons-material/Remove";
+import ManageSearchOutlinedIcon from "@mui/icons-material/ManageSearchOutlined.js";
 
 const TransferListChosen = (props) => {
     const {selected, handleDecrement, handleIncrement, handleDelete} = props;
@@ -33,6 +34,25 @@ const TransferListChosen = (props) => {
                     ))}
                 </List>
             </Box>
+            <Button variant={"contained"}
+                    fullWidth={true}
+            >
+                Подобрать
+            </Button>
+            <Fab
+                color="primary"
+                aria-label="add"
+                // onClick={handleFabClick}
+                variant="extended"
+                sx={{
+                    position: 'fixed',
+                    bottom: 16,
+                    right: 16,
+                }}
+            >
+                <ManageSearchOutlinedIcon sx={{ mr: 1 }}/>
+                Подобрать
+            </Fab>
         </Box>
     )
 }
