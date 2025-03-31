@@ -4,9 +4,17 @@ import DeleteIcon from "@mui/icons-material/Delete";
 import AddIcon from "@mui/icons-material/Add";
 import RemoveIcon from "@mui/icons-material/Remove";
 import ManageSearchOutlinedIcon from "@mui/icons-material/ManageSearchOutlined.js";
+import {usePickUpComboMutation} from "../../api/api.js";
+
 
 const TransferListChosen = (props) => {
     const {selected, handleDecrement, handleIncrement, handleDelete} = props;
+    const [pickUpTrigger, {data, error, isFetching}] = usePickUpComboMutation()
+
+    const handleTrigger = () => {
+        console.log("selected", selected)
+        pickUpTrigger({items: selected})
+    }
 
     return (
         <Box padding={2}>
@@ -36,13 +44,14 @@ const TransferListChosen = (props) => {
             </Box>
             <Button variant={"contained"}
                     fullWidth={true}
+                    onClick={handleTrigger}
             >
                 Подобрать
             </Button>
             <Fab
                 color="primary"
                 aria-label="add"
-                // onClick={handleFabClick}
+                onClick={handleTrigger}
                 variant="extended"
                 sx={{
                     position: 'fixed',

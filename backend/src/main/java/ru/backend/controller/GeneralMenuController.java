@@ -13,6 +13,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/general-menu")
+@CrossOrigin(origins = "*")
 public class GeneralMenuController {
 
     private final GeneralMenuService generalMenuService;

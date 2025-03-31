@@ -12,9 +12,24 @@ export const api = createApi({
         getGeneralMenu: builder.query({
             query: () => '/general-menu',
         }),
+        pickUpCombo: builder.mutation({
+            query: ({items}) => {
+                const body = items.map(item => ({
+                    id: item.id,
+                    count: item.count,
+                }))
+
+                return {
+                    url: "/combo/pick-up",
+                    method: "POST",
+                    body: body,
+                }
+            },
+        })
     }),
 });
 
 export const {
     useGetGeneralMenuQuery,
+    usePickUpComboMutation,
 } = api;
