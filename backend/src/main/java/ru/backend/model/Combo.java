@@ -1,46 +1,38 @@
 package ru.backend.model;
 
 import jakarta.persistence.*;
+import lombok.Getter;
+import lombok.Setter;
 
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
+@Getter
 @Entity
 @Table(name = "combo")
 public class Combo {
 
+    // Getters and setters
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
+    @Setter
     private String title;
+
+    @Setter
     private Long price;
 
+//    @OneToMany(mappedBy = "combo", fetch = FetchType.LAZY, cascade = CascadeType.ALL)
+//    private List<ComboSlot> slots = new ArrayList<>();
     @OneToMany(mappedBy = "combo", cascade = CascadeType.ALL, orphanRemoval = true)
-    private List<ComboSlot> slots = new ArrayList<>();
+    private Set<ComboSlot> slots = new HashSet<>();
 
-    // Getters and setters
-    public Long getId() {
-        return id;
+    @Override
+    public String toString() {
+        return "Combo{id=" + id + ", title='" + title + "'}";
     }
 
-    public void setId(Long id) {
-        this.id = id;
-    }
-
-    public String getTitle() {
-        return title;
-    }
-
-    public void setTitle(String title) {
-        this.title = title;
-    }
-
-    public Long getPrice() {
-        return price;
-    }
-
-    public void setPrice(Long price) {
-        this.price = price;
-    }
 }

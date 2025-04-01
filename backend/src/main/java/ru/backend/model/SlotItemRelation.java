@@ -1,7 +1,11 @@
 package ru.backend.model;
 
 import jakarta.persistence.*;
+import lombok.Getter;
+import lombok.Setter;
 
+@Setter
+@Getter
 @Entity
 @Table(name = "slot_item_relation")
 public class SlotItemRelation {
@@ -19,27 +23,4 @@ public class SlotItemRelation {
     @JoinColumn(name = "slot_item_id", nullable = false)
     private SlotItem slotItem;
 
-    public Long getId() {
-        return id;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
-    }
-
-    public ComboSlot getComboSlot() {
-        return comboSlot;
-    }
-
-    public void setComboSlot(ComboSlot comboSlot) {
-        this.comboSlot = comboSlot;
-    }
-
-    public SlotItem getSlotItem() {
-        return slotItem;
-    }
-
-    public void setSlotItem(SlotItem slotItem) {
-        this.slotItem = slotItem;
-    }
 }
