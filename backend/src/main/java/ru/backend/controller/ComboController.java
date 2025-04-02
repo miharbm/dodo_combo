@@ -3,9 +3,8 @@ package ru.backend.controller;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import ru.backend.model.CartItemRequest;
-import ru.backend.model.CartResponse;
-import ru.backend.model.Combo;
+import ru.backend.dto.CartItemRequest;
+import ru.backend.dto.CartResponse;
 import ru.backend.service.CartService;
 import ru.backend.service.ComboImportService;
 import ru.backend.service.ComboService;
@@ -35,10 +34,10 @@ public class ComboController {
         return ResponseEntity.status( HttpStatus.CREATED).build();
     }
 
-    @PostMapping("pick-up")
-    public ResponseEntity<CartResponse> processCart(@RequestBody List<CartItemRequest> cartItems) {
-        return ResponseEntity.ok(cartService.processCart(cartItems));
-    }
+//    @PostMapping("pick-up")
+//    public ResponseEntity<CartResponse> processCart(@RequestBody List<CartItemRequest> cartItems) {
+//        return ResponseEntity.ok(cartService.processCart(cartItems));
+//    }
 
     @GetMapping
     public String getAllCombos() {

@@ -1,7 +1,8 @@
-package ru.backend.model;
+package ru.backend.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
+import ru.backend.model.ComboSlotItem;
 
 import java.util.Map;
 
@@ -9,6 +10,6 @@ import java.util.Map;
 @AllArgsConstructor
 public class ComboResult {
     private Long comboId;
-    private Map<Long, SlotItem> usedItems;
+    private Map<Long,ComboSlotItem> usedItems;
     private double totalPrice;
 }

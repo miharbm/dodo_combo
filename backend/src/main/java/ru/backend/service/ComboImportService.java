@@ -13,28 +13,26 @@ import java.io.IOException;
 import java.math.BigDecimal;
 import java.util.Iterator;
 import java.util.List;
+import java.util.Optional;
 
 @Service
 public class ComboImportService {
 
     private final ComboRepository comboRepository;
     private final ComboSlotRepository comboSlotRepository;
-    private final SlotItemRepository slotItemRepository;
-    private final SlotItemRelationRepository slotItemRelationRepository;
+    private final ComboSlotItemRepository comboSlotItemRepository;
     private final ObjectMapper objectMapper;
     private final GeneralMenuRepository generalMenuRepository;
 
     public ComboImportService(
             ComboRepository comboRepository,
             ComboSlotRepository comboSlotRepository,
-            SlotItemRepository slotItemRepository,
-            SlotItemRelationRepository slotItemRelationRepository,
+            ComboSlotItemRepository comboSlotItemRepository,
             ObjectMapper objectMapper, GeneralMenuRepository generalMenuRepository
     ) {
         this.comboRepository = comboRepository;
         this.comboSlotRepository = comboSlotRepository;
-        this.slotItemRepository = slotItemRepository;
-        this.slotItemRelationRepository = slotItemRelationRepository;
+        this.comboSlotItemRepository = comboSlotItemRepository;
         this.objectMapper = objectMapper;
         this.generalMenuRepository = generalMenuRepository;
     }
@@ -43,48 +41,36 @@ public class ComboImportService {
     public void importCombosFromJson() throws IOException {
         File file = new File( "src/main/resources/dodo_combo_menu.json" );
 
-        List<JsonNode> comboNodes = objectMapper.readValue(file, new TypeReference<List<JsonNode>>() {});
-
+        List<JsonNode> comboNodes = objectMapper.readValue(file, new TypeReference<>() {});
         for (JsonNode comboNode : comboNodes) {
             Combo combo = new Combo();
-            combo.setTitle(comboNode.get("title").asText());
-            combo.setPrice(comboNode.get("price").asLong());
+            String comboTitle = comboNode.get("title").asText();
+            BigDecimal comboPrice = new BigDecimal(comboNode.get("price").asText());
+            combo.setTitle(comboTitle);
+            combo.setPrice(comboPrice);
             comboRepository.save(combo);
 
             JsonNode itemsNode = comboNode.get("items");
             for (Iterator<String> it = itemsNode.fieldNames(); it.hasNext(); ) {
                 String slotKey = it.next();
-                ComboSlot slot = new ComboSlot();
-                slot.setCombo(combo);
-                comboSlotRepository.save(slot);
+                ComboSlot comboSlot = new ComboSlot();
+                comboSlot.setCombo(combo);
+                comboSlotRepository.save(comboSlot);
 
                 for (JsonNode itemNode : itemsNode.get(slotKey)) {
+                    System.out.println("itemNode" + itemNode);
                     String itemTitle = itemNode.get("title").asText();
-                    long extraPrice = itemNode.get("extra_price").asLong(); // Long вместо BigDecimal
+                    BigDecimal extraPrice = new BigDecimal(itemNode.get("extra_price").asText());
+                    Optional<GeneralMenu> gMenu =  generalMenuRepository.findByTitle(itemTitle);
+                    System.out.println(gMenu);
 
-                    SlotItem item = slotItemRepository.findByTitle(itemTitle)
-                            .orElseGet(() -> {
-                                SlotItem newItem = new SlotItem();
-                                newItem.setTitle(itemTitle); // Нужно добавить поле title в SlotItem
-                                newItem.setExtraPrice(BigDecimal.valueOf(extraPrice));
-
-                                // Находим GeneralMenu, например, по категории
-                                GeneralMenu generalMenu = generalMenuRepository.findByCategory("default_category");  // можно изменить логику поиска
-                                if (generalMenu == null) {
-                                    // Если GeneralMenu не найден, можно создать новый, если нужно
-                                    generalMenu = new GeneralMenu();
-                                    generalMenu.setCategory("default_category");
-                                    generalMenu.setTitle("Default Menu");
-                                    generalMenuRepository.save(generalMenu);
-                                }
-                                newItem.setGeneralMenu(generalMenu); // Устанавливаем найденный GeneralMenu
-
-                                return slotItemRepository.save(newItem);
-                            });
-                    SlotItemRelation relation = new SlotItemRelation();
-                    relation.setComboSlot(slot);
-                    relation.setSlotItem(item);
-                    slotItemRelationRepository.save(relation); // Убрали setExtraPrice, т.к. его нет в SlotItemRelation
+                    gMenu.ifPresent(generalMenu -> {
+                        ComboSlotItem csItem = new ComboSlotItem();
+                        csItem.setGeneralMenu( generalMenu );
+                        csItem.setComboSlot( comboSlot );
+                        csItem.setExtraPrice( extraPrice );
+                        comboSlotItemRepository.save( csItem );
+                    });
                 }
             }
         }

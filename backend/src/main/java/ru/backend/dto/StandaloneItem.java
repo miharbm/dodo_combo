@@ -1,11 +1,11 @@
-package ru.backend.model;
+package ru.backend.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
 
 @Data
 @AllArgsConstructor
-public class CartItemRequest {
-    private Long id;
+public class StandaloneItem {
+    private Long itemId;
     private Integer count;
 }
