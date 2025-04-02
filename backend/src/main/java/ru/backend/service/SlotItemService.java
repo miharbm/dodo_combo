@@ -2,20 +2,20 @@ package ru.backend.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import ru.backend.model.SlotItem;
-import ru.backend.repositories.SlotItemRepository;
+import ru.backend.model.ComboSlotItem;
+import ru.backend.repositories.ComboSlotItemRepository;
 
 @Service
 public class SlotItemService {
 
-    private final SlotItemRepository slotItemRepository;
+    private final ComboSlotItemRepository comboSlotItemRepository;
 
     @Autowired
-    public SlotItemService(SlotItemRepository slotItemRepository) {
-        this.slotItemRepository = slotItemRepository;
+    public SlotItemService(ComboSlotItemRepository comboSlotItemRepository) {
+        this.comboSlotItemRepository = comboSlotItemRepository;
     }
 
-    public SlotItem createSlotItem(SlotItem slotItem) {
-        return slotItemRepository.save(slotItem);
+    public ComboSlotItem createSlotItem(ComboSlotItem comboSlotItem) {
+        return comboSlotItemRepository.save( comboSlotItem );
     }
 }

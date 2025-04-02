@@ -5,22 +5,22 @@ import lombok.Getter;
 import lombok.Setter;
 
 import java.math.BigDecimal;
-import java.util.List;
 
 @Setter
 @Getter
 @Entity
 @Table(name = "slot_items")
-public class SlotItem {
+public class ComboSlotItem {
 
-    // Геттеры и сеттеры
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id")
     private Long id;
 
-    @Column(name = "title", nullable = false)
-    private String title;
+
+    @ManyToOne
+    @JoinColumn(name = "slot_id", nullable = false)
+    private ComboSlot comboSlot;
 
     @ManyToOne
     @JoinColumn(name = "gmenu_id", nullable = false)
@@ -29,7 +29,13 @@ public class SlotItem {
     @Column(name = "extra_price", nullable = false)
     private BigDecimal extraPrice;
 
-    @OneToMany(mappedBy = "slotItem", cascade = CascadeType.ALL, orphanRemoval = true)
-    private List<SlotItemRelation> relations;
 
+    @Override
+    public String toString() {
+        return "SlotItem{" +
+                "id=" + id +
+                ", generalMenuId=" + generalMenu.getId() +
+                ", extraPrice=" + extraPrice +
+                '}';
+    }
 }
