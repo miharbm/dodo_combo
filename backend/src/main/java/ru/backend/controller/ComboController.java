@@ -11,6 +11,7 @@ import ru.backend.service.ComboService;
 
 import java.io.IOException;
 import java.util.List;
+import java.util.Set;
 
 @RestController
 @RequestMapping("/combo")
@@ -35,7 +36,7 @@ public class ComboController {
     }
 
     @PostMapping("pick-up")
-    public ResponseEntity<List<ComboVariant>> processCart(@RequestBody List<CartItemRequest> cartItems) {
+    public ResponseEntity<Set<ComboVariant>> processCart(@RequestBody List<CartItemRequest> cartItems) {
         return ResponseEntity.ok(cartService.findCombos(cartItems));
     }
 

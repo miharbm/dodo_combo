@@ -31,7 +31,7 @@ public class CartService {
         this.generalMenuRepository = generalMenuRepository;
     }
 
-    public List<ComboVariant> findCombos(List<CartItemRequest> cartItems) {
+    public Set<ComboVariant> findCombos(List<CartItemRequest> cartItems) {
 
         List<Long> ids = cartItems.stream()
                 .map(CartItemRequest::getId)
@@ -44,7 +44,11 @@ public class CartService {
             comboVariants.add( processCombo(combos, combo, cartItems) );
         }
 
-        return comboVariants;
+//        Set<ComboVariant> setComboVariants = new HashSet<>(comboVariants);
+        Set<ComboVariant> setComboVariants = new TreeSet<>(comboVariants);
+
+//        return comboVariants;
+        return setComboVariants;
     }
 
     public ComboVariant processCombo(Set<Combo> combos, Combo initialCombo, List<CartItemRequest> cartItems) {
