@@ -1,5 +1,6 @@
 package ru.backend.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
@@ -19,22 +20,20 @@ public class ComboSlot {
 
     @ManyToOne
     @JoinColumn(name = "combo_id", nullable = false)
+    @JsonIgnore
     private Combo combo;
 
-//    @OneToMany(mappedBy = "comboSlot", cascade = CascadeType.ALL, orphanRemoval = true)
-//    private List<SlotItemRelation> itemRelations = new ArrayList<>();
-//
-//    // Метод для получения товаров в слоте
-//    public List<SlotItem> getItems() {
-//        List<SlotItem> slotItems = new ArrayList<>();
-//        for (SlotItemRelation relation : itemRelations) {
-//            slotItems.add(relation.getSlotItem());
-//        }
-//        return slotItems;
-//    }
+    @OneToMany(mappedBy = "comboSlot", cascade = CascadeType.ALL)
+    @JsonIgnore
+    private List<ComboSlotItem> items = new ArrayList<>();
+
 
     @Override
     public String toString() {
         return "ComboSlot{id=" + id + "combo_id'" + combo.getId() + "'}";
+    }
+
+    public Long getComboId() {
+        return combo.getId();
     }
 }

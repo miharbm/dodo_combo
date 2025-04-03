@@ -58,11 +58,9 @@ public class ComboImportService {
                 comboSlotRepository.save(comboSlot);
 
                 for (JsonNode itemNode : itemsNode.get(slotKey)) {
-                    System.out.println("itemNode" + itemNode);
                     String itemTitle = itemNode.get("title").asText();
                     BigDecimal extraPrice = new BigDecimal(itemNode.get("extra_price").asText());
                     Optional<GeneralMenu> gMenu =  generalMenuRepository.findByTitle(itemTitle);
-                    System.out.println(gMenu);
 
                     gMenu.ifPresent(generalMenu -> {
                         ComboSlotItem csItem = new ComboSlotItem();

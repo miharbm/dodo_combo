@@ -4,7 +4,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import ru.backend.dto.CartItemRequest;
-import ru.backend.dto.CartResponse;
+import ru.backend.model.ComboVariant;
 import ru.backend.service.CartService;
 import ru.backend.service.ComboImportService;
 import ru.backend.service.ComboService;
@@ -34,10 +34,10 @@ public class ComboController {
         return ResponseEntity.status( HttpStatus.CREATED).build();
     }
 
-//    @PostMapping("pick-up")
-//    public ResponseEntity<CartResponse> processCart(@RequestBody List<CartItemRequest> cartItems) {
-//        return ResponseEntity.ok(cartService.processCart(cartItems));
-//    }
+    @PostMapping("pick-up")
+    public ResponseEntity<List<ComboVariant>> processCart(@RequestBody List<CartItemRequest> cartItems) {
+        return ResponseEntity.ok(cartService.findCombos(cartItems));
+    }
 
     @GetMapping
     public String getAllCombos() {
