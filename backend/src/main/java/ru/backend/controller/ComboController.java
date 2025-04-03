@@ -36,8 +36,10 @@ public class ComboController {
     }
 
     @PostMapping("pick-up")
-    public ResponseEntity<Set<ComboVariant>> processCart(@RequestBody List<CartItemRequest> cartItems) {
-        return ResponseEntity.ok(cartService.findCombos(cartItems));
+    public ResponseEntity<Set<ComboVariant>> processCart(
+            @RequestBody List<CartItemRequest> cartItems,
+            @RequestParam(defaultValue = "0") int allowedMissingSlots) {
+        return ResponseEntity.ok( cartService.findCombos(cartItems, allowedMissingSlots) );
     }
 
     @GetMapping
