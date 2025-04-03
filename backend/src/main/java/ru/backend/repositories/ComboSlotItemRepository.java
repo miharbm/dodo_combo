@@ -8,8 +8,7 @@ import java.util.List;
 import java.util.Optional;
 
 public interface ComboSlotItemRepository extends JpaRepository<ComboSlotItem, Long> {
-//    Optional<ComboSlotItem> findByTitle(String title);
-    Optional<List<ComboSlotItem>> findByComboSlotAndGeneralMenuIdIn(ComboSlot comboSlot, List<Long> generalMenuIds);
+    List<ComboSlotItem> findByComboSlotAndGeneralMenuIdIn(ComboSlot comboSlot, List<Long> generalMenuIds);
 }
 
 
