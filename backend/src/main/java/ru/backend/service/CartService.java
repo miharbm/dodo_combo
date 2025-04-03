@@ -31,7 +31,7 @@ public class CartService {
         this.generalMenuRepository = generalMenuRepository;
     }
 
-    public Set<ComboVariant> findCombos(List<CartItemRequest> cartItems) {
+    public Set<ComboVariant> findCombos(List<CartItemRequest> cartItems, int allowedMissingSlots) {
 
         List<Long> ids = cartItems.stream()
                 .map(CartItemRequest::getId)
@@ -41,7 +41,7 @@ public class CartService {
         List<ComboVariant> comboVariants = new ArrayList<>();
 
         for (Combo combo : combos) {
-            comboVariants.add( processCombo(combos, combo, cartItems) );
+            comboVariants.add( processCombo(combos, combo, cartItems, allowedMissingSlots) );
         }
 
 //        Set<ComboVariant> setComboVariants = new HashSet<>(comboVariants);
@@ -51,7 +51,7 @@ public class CartService {
         return setComboVariants;
     }
 
-    public ComboVariant processCombo(Set<Combo> combos, Combo initialCombo, List<CartItemRequest> cartItems) {
+    private ComboVariant processCombo(Set<Combo> combos, Combo initialCombo, List<CartItemRequest> cartItems, int allowedMissingSlots) {
         List<Long> repeatedIds = cartItems.stream()
                 .flatMap(item -> Collections.nCopies(item.getCount(), item.getId()).stream())
                 .toList();
@@ -60,7 +60,7 @@ public class CartService {
         List<ComboResult> comboResults = new ArrayList<>();
 
 
-        checkCombo(initialCombo, mutableRepeatedIds).ifPresent(
+        checkCombo(initialCombo, mutableRepeatedIds, allowedMissingSlots).ifPresent(
             (pair) -> {
                 comboResults.add( pair.getFirst() );
                 mutableRepeatedIds.clear();
@@ -73,7 +73,7 @@ public class CartService {
         while (anotherPass.get() && mutableRepeatedIds.size() >= 2) {
             anotherPass.set( false );
             for (Combo combo : combos) {
-                checkCombo(combo, mutableRepeatedIds).ifPresent(
+                checkCombo(combo, mutableRepeatedIds, allowedMissingSlots).ifPresent(
                         (pair) -> {
                             comboResults.add( pair.getFirst() );
                             mutableRepeatedIds.clear();
@@ -102,7 +102,7 @@ public class CartService {
         return new ComboVariant( comboResults, standaloneItems, totalPrice );
     }
 
-    public Optional<Pair<ComboResult, List<Long>>> checkCombo(Combo combo, List<Long> mutableRepeatedIds ) {
+    private Optional<Pair<ComboResult, List<Long>>> checkCombo(Combo combo, List<Long> mutableRepeatedIds, int allowedMissingSlots ) {
         List<Long> mutableRepeatedIdsCopy = new ArrayList<>(mutableRepeatedIds);
         Set<ComboSlot> slots = combo.getSlots();
         ComboResult comboResult = new ComboResult(combo);
@@ -120,7 +120,7 @@ public class CartService {
             }
         }
 
-        if (comboResult.getMissingSlots().size() <= 1) {
+        if (comboResult.getMissingSlots().size() <= allowedMissingSlots) {
             return Optional.of(Pair.of(comboResult, mutableRepeatedIdsCopy));
         }
 
