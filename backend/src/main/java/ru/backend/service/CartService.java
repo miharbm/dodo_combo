@@ -1,138 +1,138 @@
 package ru.backend.service;
 
-
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.util.Pair;
 import org.springframework.stereotype.Service;
 import ru.backend.dto.CartItemRequest;
-import ru.backend.dto.CartResponse;
 import ru.backend.dto.ComboResult;
-import ru.backend.dto.StandaloneItem;
 import ru.backend.model.*;
 import ru.backend.repositories.ComboRepository;
-import ru.backend.repositories.GeneralMenuRepository;
 import ru.backend.repositories.ComboSlotItemRepository;
+import ru.backend.repositories.ComboSlotRepository;
+import ru.backend.repositories.GeneralMenuRepository;
 
 import java.math.BigDecimal;
 import java.util.*;
-import java.util.stream.Collectors;
+import java.util.concurrent.atomic.AtomicBoolean;
 
 @Service
 public class CartService {
 
     private final ComboRepository comboRepository;
-    private final GeneralMenuRepository generalMenuRepository;
+    private final ComboSlotRepository comboSlotRepository;
     private final ComboSlotItemRepository comboSlotItemRepository;
+    private final GeneralMenuRepository generalMenuRepository;
 
     @Autowired
-    public CartService(ComboRepository comboRepository, GeneralMenuRepository generalMenuRepository, ComboSlotItemRepository comboSlotItemRepository) {
+    public CartService(ComboRepository comboRepository, ComboSlotRepository comboSlotRepository, ComboSlotItemRepository comboSlotItemRepository, GeneralMenuRepository generalMenuRepository) {
         this.comboRepository = comboRepository;
-        this.generalMenuRepository = generalMenuRepository;
+        this.comboSlotRepository = comboSlotRepository;
         this.comboSlotItemRepository = comboSlotItemRepository;
+        this.generalMenuRepository = generalMenuRepository;
     }
 
-//    public CartResponse processCart(List<CartItemRequest> cartItems) {
-//        // 1. Загружаем данные
-//        Map<Long, Integer> cartMap = cartItems.stream()
-//                .collect(Collectors.toMap(CartItemRequest::getId, CartItemRequest::getCount));
-//
-//        List<Combo> combos = comboRepository.findAllWithSlotsAndItems();
-//        List<GeneralMenu> menuItems = generalMenuRepository.findAllById(cartMap.keySet());
-//        System.out.println("Загруженные комбо: " + combos);  // Логирование всех загруженных комбо
-//
-//        // 2. Разбираем корзину по всем возможным комбо
-//        List<ComboResult> usedCombos = new ArrayList<>();
-//        List<StandaloneItem> standaloneItems = new ArrayList<>();
-//
-//        // Цикл, который будет продолжаться, пока в корзине есть товары
-//        while (!cartMap.isEmpty()) {
-//            // Ищем все возможные комбо для оставшихся товаров
-//            List<ComboResult> possibleCombos = findPossibleCombos(cartMap, combos);
-//
-//            // Логирование найденных комбо
-//            System.out.println("Возможные комбо: " + possibleCombos);
-//
-//            if (!possibleCombos.isEmpty()) {
-//                // Сортируем по стоимости (по убыванию, чтобы сначала выбрать самые выгодные)
-//                possibleCombos.sort(Comparator.comparingDouble(ComboResult::getTotalPrice));
-//                ComboResult bestCombo = possibleCombos.get(0);
-//
-//                // Логируем выбранное комбо
-//                System.out.println("Выбранное комбо: " + bestCombo);
-//
-//                // Добавляем лучшее комбо в список
-//                usedCombos.add(bestCombo);
-//                bestCombo.getUsedItems().forEach(cartMap::remove);
-//            } else {
-//                // Если нет подходящих комбо, оставляем товар отдельно
-//                long itemId = cartMap.keySet().iterator().next();
-//                standaloneItems.add(new StandaloneItem(itemId, cartMap.remove(itemId)));
-//            }
-//        }
-//
-//        return new CartResponse(usedCombos, standaloneItems);
-//    }
+    public List<ComboVariant> findCombos(List<CartItemRequest> cartItems) {
 
-//    private List<ComboResult> findPossibleCombos(Map<Long, Integer> cart, List<Combo> combos) {
-//        List<ComboResult> possibleCombos = new ArrayList<>();
-//
-//        for (Combo combo : combos) {
-//            Optional<ComboResult> comboResult = calculateComboCost(combo, cart);
-//
-//            // Логируем результаты для каждого комбо
-//            comboResult.ifPresent(result -> System.out.println("Найдено подходящее комбо: " + result));
-//
-//            comboResult.ifPresent(possibleCombos::add);
-//        }
-//
-//        return possibleCombos;
-//    }
+        System.out.println(cartItems);
+        List<Long> ids = cartItems.stream()
+                .map(CartItemRequest::getId)
+                .toList();
+        Set<Combo> combos = comboRepository.findCombosByGeneralMenuIds( ids );
 
-//    private Optional<ComboResult> calculateComboCost(Combo combo, Map<Long, Integer> cart) {
-//        Map<Long,ComboSlotItem> chosenItems = new HashMap<>();
-//        BigDecimal totalPrice = new BigDecimal(combo.getPrice());
-//
-//        System.out.println("=== Обрабатываем комбо: " + combo.getTitle() + " ===");
-//        System.out.println("Текущая корзина: " + cart);
-//
-//        Set<ComboSlot> comboSlots = combo.getSlots();
-//        System.out.println(comboSlots);
-//        for (ComboSlot comboSlot: comboSlots) {
-//            List<ComboSlotItem> comboSlotItems = comboSlot.getItems();
-//            System.out.println( comboSlotItems );
-//        }
-//
-//        // Список всех доступных товаров
-//        List<ComboSlotItem> availableItems = combo.getSlots().stream()
-//                .flatMap(slot -> slot.getItems().stream())
-//                .peek(item -> System.out.println("Возможный товар: " + item.getGeneralMenu().getId() + " (" + item.getExtraPrice() + ")"))
-//                .filter(item -> cart.containsKey(item.getGeneralMenu().getId()))
-//                .sorted(Comparator.comparing(item -> item.getExtraPrice().doubleValue())) // Минимизируем доплату
-//                .toList();
-//
-//        System.out.println("Доступные товары в корзине для комбо: " + availableItems);
-//
-//        // Если товаров недостаточно
-//        if (availableItems.size() < combo.getSlots().size()) {
-//            System.out.println("Недостаточно товаров для комбо: " + combo.getTitle());
-//            return Optional.empty();
-//        }
-//
-//        // Выбираем товары
-//        Iterator<ComboSlotItem> itemIterator = availableItems.iterator();
-//        for (ComboSlot slot : combo.getSlots()) {
-//            if (!itemIterator.hasNext()) {
-//                System.out.println("Не хватает товаров для заполнения всех слотов.");
-//                return Optional.empty();
-//            }
-//            ComboSlotItem chosenItem = itemIterator.next();
-//            chosenItems.put(chosenItem.getGeneralMenu().getId(), chosenItem);
-//            totalPrice = totalPrice.add(chosenItem.getExtraPrice());
-//            System.out.println("Выбран товар для слота " + slot.getId() + ": " + chosenItem.getGeneralMenu().getId());
-//        }
-//
-//        System.out.println(">>> Подходит комбо: " + combo.getTitle() + " с итоговой ценой: " + totalPrice);
-//        return Optional.of(new ComboResult(combo.getId(), chosenItems, totalPrice.doubleValue()));
-//    }
+        List<ComboVariant> comboVariants = new ArrayList<>();
 
+        for (Combo combo : combos) {
+            comboVariants.add( processCombo(combos, combo, cartItems) );
+        }
+
+        return comboVariants;
+    }
+
+    public ComboVariant processCombo(Set<Combo> combos, Combo initialCombo, List<CartItemRequest> cartItems) {
+        List<Long> repeatedIds = cartItems.stream()
+                .flatMap(item -> Collections.nCopies(item.getCount(), item.getId()).stream())
+                .toList();
+        List<Long> mutableRepeatedIds = new ArrayList<>(repeatedIds);
+
+        List<ComboResult> comboResults = new ArrayList<>();
+//        List<GeneralMenu> standaloneItems = new ArrayList<>();
+        System.out.println("standaloneItemsIdsAtInitial" + mutableRepeatedIds);
+
+
+        checkCombo(initialCombo, mutableRepeatedIds).ifPresent(
+            (pair) -> {
+                comboResults.add( pair.getFirst() );
+                mutableRepeatedIds.retainAll( pair.getSecond() );
+            }
+        );
+
+        System.out.println("standaloneItemsIdsAfterInitial" + mutableRepeatedIds);
+
+
+        AtomicBoolean anotherPass = new AtomicBoolean( true );
+        while (anotherPass.get() && mutableRepeatedIds.size() >= 2) {
+            anotherPass.set( false );
+            for (Combo combo : combos) {
+                checkCombo(combo, mutableRepeatedIds).ifPresent(
+                        (pair) -> {
+                            comboResults.add( pair.getFirst() );
+                            mutableRepeatedIds.retainAll( pair.getSecond() );
+                            anotherPass.set( true );
+                        }
+                );
+                System.out.println("standaloneItemsIds" + mutableRepeatedIds);
+            }
+        }
+
+//        System.out.println("standaloneItemsIds" + mutableRepeatedIds);
+        List<GeneralMenu> standaloneItems = generalMenuRepository.findByIdIn( mutableRepeatedIds );
+        System.out.println("standaloneItems" + standaloneItems);
+
+        BigDecimal totalPriceFromCombos = comboResults.stream()
+                .map(ComboResult::getFinalComboPrice)
+                .filter(Objects::nonNull)
+                .reduce(BigDecimal.ZERO, BigDecimal::add);
+
+        BigDecimal totalPriceFromStandalone = standaloneItems.stream()
+                .map(GeneralMenu::getPrice) // Получаем значение price
+                .filter(Objects::nonNull)   // Фильтруем null значения
+                .map(BigDecimal::valueOf)   // Преобразуем Long в BigDecimal
+                .reduce(BigDecimal.ZERO, BigDecimal::add); // Суммируем
+
+        BigDecimal totalPrice = totalPriceFromCombos.add(totalPriceFromStandalone);
+
+        return new ComboVariant( comboResults, standaloneItems, totalPrice );
+    }
+
+    public Optional<Pair<ComboResult, List<Long>>> checkCombo(Combo combo, List<Long> mutableRepeatedIds ) {
+        Set<ComboSlot> slots = combo.getSlots();
+        ComboResult comboResult = new ComboResult(combo);
+        comboResult.setFinalComboPrice( combo.getPrice() );
+
+        for (ComboSlot slot : slots) {
+            comboSlotItemRepository.findByComboSlotAndGeneralMenuIdIn(slot, mutableRepeatedIds)
+                    .ifPresentOrElse(
+                            (comboSlotItemList) -> {
+                                if (!comboSlotItemList.isEmpty()) {
+                                    ComboSlotItem comboSlotItem = comboSlotItemList.get( 0 );
+                                    comboResult.getUsedItems().add(comboSlotItem);
+                                    mutableRepeatedIds.remove(comboSlotItem.getGmenuId());
+                                    comboResult.increaseFinalComboPrice( comboSlotItem.getExtraPrice() );
+                                } else {
+                                    comboResult.getMissingSlots().add(slot);
+                                }
+
+                            },
+                            () -> {
+                                comboResult.getMissingSlots().add(slot);
+                            }
+                    );
+        }
+
+        if (comboResult.getMissingSlots().size() <= 1) {
+            return Optional.of(Pair.of(comboResult, mutableRepeatedIds));
+        }
+
+        return Optional.empty();
+    }
 }
-
