@@ -13,7 +13,7 @@ export const api = createApi({
             query: () => '/general-menu',
         }),
         pickUpCombo: builder.mutation({
-            query: ({items}) => {
+            query: ({items, allowedMissingSlots}) => {
                 const body = items.map(item => ({
                     id: item.id,
                     count: item.count,
@@ -23,6 +23,9 @@ export const api = createApi({
                     url: "/combo/pick-up",
                     method: "POST",
                     body: body,
+                    params: allowedMissingSlots === null ? {} : {
+                        allowedMissingSlots: allowedMissingSlots,
+                    }
                 }
             },
         })
