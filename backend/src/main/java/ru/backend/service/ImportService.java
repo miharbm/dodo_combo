@@ -40,20 +40,43 @@ public class ImportService {
         this.generalMenuRepository = generalMenuRepository;
     }
 
+    @Transactional
+    public void importMenusFromResources() throws IOException {
+        JsonNode rootNode = readJsonFile( "dodo_general_menu.json" );
+        List<GeneralMenu> menuItems = processMenuJson( rootNode );
+        generalMenuRepository.saveAll( menuItems );
+    }
 
-    public void importMenusFromJson()  throws IOException {
+    @Transactional
+    public void importMenusFromJson(Object menuJson) throws IOException {
+        JsonNode rootNode = objectMapper.convertValue(menuJson, JsonNode.class);
+        List<GeneralMenu> menuItems = processMenuJson(rootNode);
+        generalMenuRepository.saveAll(menuItems);
+    }
 
-        ObjectMapper objectMapper = new ObjectMapper();
-        InputStream inputStream = getClass().getClassLoader().getResourceAsStream("dodo_general_menu.json");
+    @Transactional
+    public void importCombosFromResources() throws IOException {
+        JsonNode comboNodes = readJsonFile( "dodo_combo_menu.json" );
+        processCombo( comboNodes );
+    }
+
+    @Transactional
+    public void importCombosFromJson(Object comboJson) throws IOException {
+        JsonNode comboNodes = objectMapper.convertValue(comboJson, JsonNode.class);
+        processCombo(comboNodes);
+    }
+
+    private JsonNode readJsonFile(String fileName) throws IOException {
+        InputStream inputStream = getClass().getClassLoader().getResourceAsStream( fileName );
         if (inputStream == null) {
-            throw new FileNotFoundException("dodo_general_menu.json not found in classpath");
+            throw new FileNotFoundException( fileName + " not found in classpath" );
         }
-//        File file = new File( "src/main/resources/dodo_general_menu.json" );
-        JsonNode rootNode = objectMapper.readTree(inputStream);
-//        JsonNode rootNode = objectMapper.readTree(file);
+        return objectMapper.readTree( inputStream );
+    }
+
+    private List<GeneralMenu> processMenuJson(JsonNode rootNode) {
         List<GeneralMenu> menuItems = new ArrayList<>();
 
-        // Проходимся по каждой категории и ее элементам
         for (JsonNode categoryNode : rootNode) {
             String categoryTitle = categoryNode.get( "title" ).asText(); // Верхний title — категория
             for (JsonNode itemNode : categoryNode.get( "items" )) {
@@ -64,45 +87,39 @@ public class ImportService {
                 menuItems.add( menuItem );
             }
         }
-        generalMenuRepository.saveAll( menuItems );
+
+        return menuItems;
     }
 
 
-    @Transactional
-    public void importCombosFromJson() throws IOException {
-        InputStream inputStream = getClass().getClassLoader().getResourceAsStream("dodo_combo_menu.json");
-        if (inputStream == null) {
-            throw new FileNotFoundException("dodo_general_menu.json not found in classpath");
-        }
-
-        List<JsonNode> comboNodes = objectMapper.readValue(inputStream, new TypeReference<>() {});
+    private void processCombo(JsonNode comboNodes) {
         for (JsonNode comboNode : comboNodes) {
             Combo combo = new Combo();
-            String comboTitle = comboNode.get("title").asText();
-            BigDecimal comboPrice = new BigDecimal(comboNode.get("price").asText());
-            combo.setTitle(comboTitle);
-            combo.setPrice(comboPrice);
-            comboRepository.save(combo);
+            String comboTitle = comboNode.get( "title" ).asText();
+            BigDecimal comboPrice = new BigDecimal( comboNode.get( "price" ).asText() );
+            combo.setTitle( comboTitle );
+            combo.setPrice( comboPrice );
+            comboRepository.save( combo );
 
-            JsonNode itemsNode = comboNode.get("items");
+            JsonNode itemsNode = comboNode.get( "items" );
             for (Iterator<String> it = itemsNode.fieldNames(); it.hasNext(); ) {
                 String slotKey = it.next();
                 ComboSlot comboSlot = new ComboSlot();
-                comboSlot.setCombo(combo);
-                comboSlotRepository.save(comboSlot);
+                comboSlot.setCombo( combo );
+                comboSlotRepository.save( comboSlot );
 
-                for (JsonNode itemNode : itemsNode.get(slotKey)) {
-                    String itemTitle = itemNode.get("title").asText();
-                    BigDecimal extraPrice = new BigDecimal(itemNode.get("extra_price").asText());
-                    Optional<GeneralMenu> gMenu =  generalMenuRepository.findByTitle(itemTitle);
+                for (JsonNode itemNode : itemsNode.get( slotKey )) {
+                    String itemTitle = itemNode.get( "title" ).asText();
+                    BigDecimal extraPrice = new BigDecimal( itemNode.get( "extra_price" ).asText() );
+                    Optional<GeneralMenu> gMenu = generalMenuRepository.findByTitle( itemTitle );
 
-                    gMenu.ifPresent(generalMenu -> {
+                    gMenu.ifPresent( generalMenu -> {
                         ComboSlotItem csItem = new ComboSlotItem();
                         csItem.setGeneralMenu( generalMenu );
                         csItem.setComboSlot( comboSlot );
                         csItem.setExtraPrice( extraPrice );
                         comboSlotItemRepository.save( csItem );
-                    });
+                    } );
                 }
             }
         }

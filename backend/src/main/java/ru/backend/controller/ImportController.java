@@ -3,10 +3,7 @@ package ru.backend.controller;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.CrossOrigin;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 import ru.backend.service.DatabaseCleanupService;
 import ru.backend.service.ImportService;
 
@@ -26,15 +23,27 @@ public class ImportController {
     }
 
 
-    @PostMapping("/general-menu")
+    @PostMapping("/resources/general-menu")
     public ResponseEntity<Void> initGeneralMenu() throws IOException {
-        importService.importMenusFromJson();
+        importService.importMenusFromResources();
+        return ResponseEntity.status( HttpStatus.CREATED).build();
+    }
+
+    @PostMapping("/general-menu")
+    public ResponseEntity<Void> initGeneralMenuFromRequest(@RequestBody Object json) throws IOException {
+        importService.importMenusFromJson(json);
+        return ResponseEntity.status( HttpStatus.CREATED).build();
+    }
+
+    @PostMapping("/resources/combo")
+    public ResponseEntity<Void> initCombos() throws IOException {
+        importService.importCombosFromResources();
         return ResponseEntity.status( HttpStatus.CREATED).build();
     }
 
     @PostMapping("/combo")
-    public ResponseEntity<Void> initCombos() throws IOException {
-        importService.importCombosFromJson();
+    public ResponseEntity<Void> initCombosFromRequest(@RequestBody Object json) throws IOException {
+        importService.importCombosFromJson(json);
         return ResponseEntity.status( HttpStatus.CREATED).build();
     }
 
