@@ -1,13 +1,12 @@
-package ru.backend.model;
+package ru.backend.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
-import ru.backend.dto.ComboResult;
+import ru.backend.model.GeneralMenu;
 
 import java.math.BigDecimal;
 import java.util.List;
 import java.util.Objects;
-import java.util.stream.Collectors;
 
 @Data
 @AllArgsConstructor

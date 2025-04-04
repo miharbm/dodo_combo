@@ -5,6 +5,7 @@ import org.springframework.data.util.Pair;
 import org.springframework.stereotype.Service;
 import ru.backend.dto.CartItemRequest;
 import ru.backend.dto.ComboResult;
+import ru.backend.dto.ComboVariant;
 import ru.backend.model.*;
 import ru.backend.repositories.ComboRepository;
 import ru.backend.repositories.ComboSlotItemRepository;
