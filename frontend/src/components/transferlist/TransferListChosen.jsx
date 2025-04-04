@@ -1,20 +1,35 @@
-import {Button, Fab, Grid, IconButton, List, ListItem, ListItemText, Typography} from "@mui/material";
+import {Button, Fab, Grid, IconButton, List, ListItem, ListItemText, TextField, Typography} from "@mui/material";
 import {Box} from "@mui/system";
 import DeleteIcon from "@mui/icons-material/Delete";
 import AddIcon from "@mui/icons-material/Add";
 import RemoveIcon from "@mui/icons-material/Remove";
 import ManageSearchOutlinedIcon from "@mui/icons-material/ManageSearchOutlined.js";
 import {usePickUpComboMutation} from "../../api/api.js";
+import {useState} from "react";
+import {useDispatch} from "react-redux";
+import {setCart} from "../../reducers/cartSlice.js";
 
 
 const TransferListChosen = (props) => {
     const {selected, handleDecrement, handleIncrement, handleDelete} = props;
-    const [pickUpTrigger, {data, error, isFetching}] = usePickUpComboMutation()
+    const [allowedMissingSlots, setAllowedMissingSlots] = useState(null)
+    const dispatch = useDispatch();
 
     const handleTrigger = () => {
         console.log("selected", selected)
-        pickUpTrigger({items: selected})
+        // pickUpTrigger({items: selected})
+        dispatch(setCart({items: selected, allowedMissingSlots: allowedMissingSlots}))
     }
+
+    const handleChangeAllowedMissingProps = (event) => {
+        const value = event.target.value;
+
+        // Проверяем, является ли введенное значение числом
+        if (!isNaN(value)) {
+            setAllowedMissingSlots(Number(value)); // Преобразуем строку в число и обновляем стейт
+        }
+    };
+
 
     return (
         <Box padding={2}>
@@ -42,9 +57,19 @@ const TransferListChosen = (props) => {
                     ))}
                 </List>
             </Box>
+            <TextField
+                label="Количество возможных свободных мест в комбо"
+                type="number" // Указываем тип поля как number
+                value={allowedMissingSlots} // Привязываем значение к стейту
+                onChange={handleChangeAllowedMissingProps} // Обработчик изменения значения
+                variant="outlined" // Вариант отображения (outlined, filled, standard)
+                fullWidth // Занимает всю ширину контейнера
+                sx={{ mt: 2 }}
+            />
             <Button variant={"contained"}
                     fullWidth={true}
                     onClick={handleTrigger}
+                    sx={{ mt: 2 }}
             >
                 Подобрать
             </Button>
