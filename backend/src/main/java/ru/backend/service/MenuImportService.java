@@ -10,7 +10,9 @@ import ru.backend.repositories.ComboRepository;
 import ru.backend.repositories.GeneralMenuRepository;
 
 import java.io.File;
+import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -27,9 +29,13 @@ public class MenuImportService {
     public void importMenusFromJson()  throws IOException {
 
         ObjectMapper objectMapper = new ObjectMapper();
-
-        File file = new File( "src/main/resources/dodo_general_menu.json" );
-        JsonNode rootNode = objectMapper.readTree(file);
+        InputStream inputStream = getClass().getClassLoader().getResourceAsStream("dodo_general_menu.json");
+        if (inputStream == null) {
+            throw new FileNotFoundException("dodo_general_menu.json not found in classpath");
+        }
+//        File file = new File( "src/main/resources/dodo_general_menu.json" );
+        JsonNode rootNode = objectMapper.readTree(inputStream);
+//        JsonNode rootNode = objectMapper.readTree(file);
         List<GeneralMenu> menuItems = new ArrayList<>();
 
         // Проходимся по каждой категории и ее элементам
