@@ -39,7 +39,7 @@ services:
     ports:
       - "3000:80"
     environment:
-      VITE_API_URL: http://localhost:8082/
+      VITE_API_URL: http://80.64.24.107:8082
 
 volumes:
   pgdata:
