@@ -26,7 +26,7 @@ public class ComboSlotItem {
 
     @ManyToOne
     @JoinColumn(name = "gmenu_id", nullable = false)
-    @JsonIgnore
+//    @JsonIgnore
     private GeneralMenu generalMenu;
 
     @Column(name = "extra_price", nullable = false)
