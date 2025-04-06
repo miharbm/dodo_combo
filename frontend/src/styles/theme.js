@@ -19,8 +19,9 @@ const theme = createTheme({
         },
     },
     typography: {
+        fontFamily: `'vagroundcyrillic', 'Roboto', 'Helvetica', 'Arial', sans-serif`,
         h1: {
-            fontFamily: '"Oswald", sans-serif',
+            fontFamily: `'vagroundcyrillic', 'Roboto', 'Helvetica', 'Arial', sans-serif`,
         },
     }
 });

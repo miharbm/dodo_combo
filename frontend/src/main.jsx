@@ -7,6 +7,7 @@ import {store} from "./store/index.js";
 import {CssBaseline} from "@mui/material";
 import {ThemeProvider} from "@mui/system";
 import theme from "./styles/theme.js";
+import "./styles/styles.scss"
 
 
 createRoot(document.getElementById('root')).render(
