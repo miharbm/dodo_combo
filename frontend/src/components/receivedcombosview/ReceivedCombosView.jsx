@@ -18,7 +18,7 @@ const ReceivedCombosView = () => {
 
 
     if (isLoading || isFetching) {
-        return <LinearProgress sx={{position: "absolute", width: "100%", top: 0, left: 0}} />
+        return <LinearProgress sx={{position: "fixed", width: "100%", height: "3px", top: 0, left: 0}} />
     }
 
     if (!data) {
