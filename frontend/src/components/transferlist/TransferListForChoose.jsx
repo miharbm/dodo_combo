@@ -1,5 +1,5 @@
 import {Box} from "@mui/system";
-import {Button, List, ListItemButton, ListItemText} from "@mui/material";
+import {Button, List, ListItemButton, ListItemText, Typography} from "@mui/material";
 
 const TransferListForChoose = (props) => {
     const {categories, filteredData, selected, handleToggle} = props;
@@ -9,7 +9,9 @@ const TransferListForChoose = (props) => {
         <Box sx={{ height: 400, overflow: "auto" }}>
             {categories?.map((category) => (
                 <Box key={category} sx={{ marginBottom: 2 }}>
-                    <h3>{category}</h3>
+                    <Typography variant="h6" sx={{ mx: 1, display: "flex", alignItems: "center", position: "sticky" }} height={"56px"} >
+                        {category}
+                    </Typography>
                     <List>
                         {filteredData
                             .filter((item) => item.category === category)

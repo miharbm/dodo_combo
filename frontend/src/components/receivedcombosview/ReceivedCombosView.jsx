@@ -27,7 +27,7 @@ const ReceivedCombosView = () => {
 
     return (
         <Box sx={{mt: 3}}>
-            <Grid container spacing={3}>
+            <Grid container spacing={2}>
                 {data.map((order, orderIndex) => (
                     <Grid item xs={12} sm={6} key={orderIndex}>
                         <Card>

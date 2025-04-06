@@ -44,7 +44,7 @@ const TransferListChosen = (props) => {
 
     return (
         <Box padding={2}>
-            <Typography variant="h5" sx={{ mx: 1, display: "flex", alignItems: "center" }} height={"56px"} >
+            <Typography variant="h4" sx={{ mx: 1, display: "flex", alignItems: "center" }} height={"56px"} >
                 Корзина
             </Typography>
             <Box sx={{ maxHeight: 400, overflow: "auto", mt: 2 }}>

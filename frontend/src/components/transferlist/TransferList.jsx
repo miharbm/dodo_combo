@@ -5,7 +5,7 @@ import {
     Divider, Fab,
     Grid,
     Paper,
-    TextField,
+    TextField, Typography,
 } from "@mui/material";
 import {Box} from "@mui/system";
 import TransferListForChoose from "./TransferListForChoose.jsx";
@@ -80,13 +80,16 @@ const TransferList = () => {
             <Grid item xs={12} md={6}>
                 <Paper>
                     <Box sx={{ padding: 2 }}>
+                        <Typography variant="h4" sx={{ mx: 1, display: "flex", alignItems: "center" }} height={"56px"} >
+                            Меню
+                        </Typography>
                         <TextField
                             label="Поиск"
                             variant="outlined"
                             fullWidth
                             value={searchTerm}
                             onChange={(e) => setSearchTerm(e.target.value)}
-                            sx={{ marginBottom: 2 }}
+                            sx={{ marginBottom: 2, marginTop: 2 }}
                         />
 
                         <TransferListForChoose

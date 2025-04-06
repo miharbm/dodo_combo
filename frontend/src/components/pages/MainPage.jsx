@@ -6,7 +6,7 @@ import ReceivedCombosView from "../receivedcombosview/ReceivedCombosView.jsx";
 const MainPage = () => {
 
     return (
-        <Container >
+        <Container sx={{mb: 3}}>
             <TransferList/>
             <ReceivedCombosView/>
         </Container>
