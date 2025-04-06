@@ -1,4 +1,15 @@
-import {Button, Fab, Grid, IconButton, List, ListItem, ListItemText, TextField, Typography} from "@mui/material";
+import {
+    Button,
+    Collapse,
+    Fab,
+    Grid,
+    IconButton,
+    List,
+    ListItem,
+    ListItemText,
+    TextField,
+    Typography
+} from "@mui/material";
 import {Box} from "@mui/system";
 import DeleteIcon from "@mui/icons-material/Delete";
 import AddIcon from "@mui/icons-material/Add";
@@ -7,6 +18,7 @@ import ManageSearchOutlinedIcon from "@mui/icons-material/ManageSearchOutlined.j
 import {useState} from "react";
 import {useDispatch} from "react-redux";
 import {setCart} from "../../reducers/cartSlice.js";
+import {TransitionGroup} from "react-transition-group";
 
 
 const TransferListChosen = (props) => {
@@ -37,24 +49,29 @@ const TransferListChosen = (props) => {
             </Typography>
             <Box sx={{ maxHeight: 400, overflow: "auto", mt: 2 }}>
                 <List>
-                    {selected.map((item) => (
-                        <ListItem key={item.id}
-                                  secondaryAction={
-                                      <SecondaryAction
-                                          item={item}
-                                          handleDecrement={handleDecrement}
-                                          handleIncrement={handleIncrement}
-                                          handleDelete={handleDelete}
-                                      />
-                                  }
-                        >
-                            <ListItemText
-                                primary={item.title}
-                                secondary={`Цена: ${item.price} руб.`}
-                            />
-                        </ListItem>
-                    ))}
+                    <TransitionGroup>
+                        {selected.map((item) => (
+                            <Collapse key={`chosen-${item.id}`}>
+                                <ListItem
+                                    secondaryAction={
+                                        <SecondaryAction
+                                            item={item}
+                                            handleDecrement={handleDecrement}
+                                            handleIncrement={handleIncrement}
+                                            handleDelete={handleDelete}
+                                        />
+                                    }
+                                >
+                                    <ListItemText
+                                        primary={item.title}
+                                        secondary={`Цена: ${item.price} руб.`}
+                                    />
+                                </ListItem>
+                            </Collapse>
+                        ))}
+                    </TransitionGroup>
                 </List>
+
             </Box>
             <Typography
                 textAlign="end"
