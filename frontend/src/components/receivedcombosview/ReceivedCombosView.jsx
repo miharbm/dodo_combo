@@ -29,7 +29,7 @@ const ReceivedCombosView = () => {
         <Box sx={{mt: 3}}>
             <Grid container spacing={3}>
                 {data.map((order, orderIndex) => (
-                    <Grid item xs={6} key={orderIndex}>
+                    <Grid item xs={12} sm={6} key={orderIndex}>
                         <Card>
                             <CardHeader
                                 title={` Вариант ${orderIndex + 1}`}
