@@ -4,7 +4,8 @@ const theme = createTheme({
     palette: {
         mode: 'light', // Установите режим светлой темы
         primary: {
-            main: '#3d7df5', // Основной цвет
+            main: "rgb(255, 105, 0)",
+            contrastText: '#ffffff',
         },
         secondary: {
             main: '#f54242', // Вторичный цвет

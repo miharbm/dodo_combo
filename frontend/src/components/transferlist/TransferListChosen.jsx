@@ -4,7 +4,6 @@ import DeleteIcon from "@mui/icons-material/Delete";
 import AddIcon from "@mui/icons-material/Add";
 import RemoveIcon from "@mui/icons-material/Remove";
 import ManageSearchOutlinedIcon from "@mui/icons-material/ManageSearchOutlined.js";
-import {usePickUpComboMutation} from "../../api/api.js";
 import {useState} from "react";
 import {useDispatch} from "react-redux";
 import {setCart} from "../../reducers/cartSlice.js";
@@ -15,9 +14,9 @@ const TransferListChosen = (props) => {
     const [allowedMissingSlots, setAllowedMissingSlots] = useState(null)
     const dispatch = useDispatch();
 
+    const totalPrice = selected.reduce((current, item) => (current + item.price * item.count), 0)
+
     const handleTrigger = () => {
-        console.log("selected", selected)
-        // pickUpTrigger({items: selected})
         dispatch(setCart({items: selected, allowedMissingSlots: allowedMissingSlots}))
     }
 
@@ -34,7 +33,7 @@ const TransferListChosen = (props) => {
     return (
         <Box padding={2}>
             <Typography variant="h5" sx={{ mx: 1, display: "flex", alignItems: "center" }} height={"56px"} >
-                Выбранные товары
+                Корзина
             </Typography>
             <Box sx={{ maxHeight: 400, overflow: "auto", mt: 2 }}>
                 <List>
@@ -57,6 +56,14 @@ const TransferListChosen = (props) => {
                     ))}
                 </List>
             </Box>
+            <Typography
+                textAlign="end"
+                paddingRight={"16px"}
+                color="textSecondary"
+                variant="h5"
+            >
+                {`Всего: ${totalPrice} ₽`}
+            </Typography>
             <TextField
                 label="Количество возможных свободных мест в комбо"
                 type="number" // Указываем тип поля как number
@@ -99,6 +106,7 @@ const SecondaryAction = (props) => {
             <Grid item>
                 <IconButton onClick={() => handleDecrement(item.id)}
                             disabled={item.count <= 1}
+                            size={"small"}
                 >
                     <RemoveIcon />
                 </IconButton>
@@ -107,12 +115,16 @@ const SecondaryAction = (props) => {
                 <Typography variant="body1" sx={{ mx: 1 }}>{item.count}</Typography>
             </Grid>
             <Grid item>
-                <IconButton onClick={() => handleIncrement(item.id)}>
+                <IconButton onClick={() => handleIncrement(item.id)}
+                            size={"small"}
+                >
                     <AddIcon />
                 </IconButton>
             </Grid>
             <Grid item>
-                <IconButton edge="end" onClick={() => handleDelete(item.id)}>
+                <IconButton edge="end" onClick={() => handleDelete(item.id)}
+                            size={"small"}
+                >
                     <DeleteIcon />
                 </IconButton>
             </Grid>
