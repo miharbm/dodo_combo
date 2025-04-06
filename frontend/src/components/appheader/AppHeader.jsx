@@ -11,7 +11,7 @@ const AppHeader = () => {
             >
                 <Typography variant="h6"
                             component="div"
-                            style={{ "-webkit-text-stroke": "1px black", color: "FEF2D6" }}
+                            style={{ "-webkit-text-stroke": "0.5px black", color: "FEF2D6" }}
                             sx={{color: "#FEF2D6"}}
                 >
                     Warming up the
