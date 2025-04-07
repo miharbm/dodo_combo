@@ -46,7 +46,7 @@ const ReceivedCombosView = () => {
                                 {order.comboResults.map((comboResult, comboIndex) => (
                                     <Card key={comboIndex}
                                           sx={{
-                                              mb: 2,
+                                              mb: 1,
                                               boxShadow: 'none',
                                               borderLeft: 'none',
                                               borderRight: 'none',
@@ -60,9 +60,7 @@ const ReceivedCombosView = () => {
                                             <Typography color="textSecondary">
                                                 Цена комбо: {comboResult.finalComboPrice} ₽
                                             </Typography>
-                                            <Typography variant="body2" sx={{ mt: 1 }}>
-                                                {comboResult.usedItems.map((item) => item.generalMenu.title).join(", ")}
-                                            </Typography>
+                                            {comboResult.usedItems.map((item) => <ItemView item={item.generalMenu} lineThough={true}/> )}
                                         </CardContent>
                                     </Card>
                                 ))}
@@ -80,11 +78,7 @@ const ReceivedCombosView = () => {
                                     >
                                         <CardContent sx={{ p: 0 }}>
                                             <Typography variant="h6" color="textSecondary">Отдельные товары</Typography>
-                                            {order.standaloneItems.map((item) => (
-                                                <Typography key={item.id} variant="body2">
-                                                    {item.category} - {item.title} ({item.price} ₽)
-                                                </Typography>
-                                            ))}
+                                            {order.standaloneItems.map((item) => <ItemView item={item}/>)}
                                         </CardContent>
                                     </Card>
                                 )}
@@ -96,4 +90,21 @@ const ReceivedCombosView = () => {
         </Box>
     );
 }
+
+
+const ItemView = ({item, lineThough}) => {
+    return (
+        <Typography key={item.id} variant="body2">
+            {item.category} - {item.title} (
+            <Typography component={"span"}
+                        color={lineThough && "textSecondary"}
+                        sx={lineThough && {textDecoration: 'line-through' }}
+            >
+                {item.price}
+            </Typography>
+            ₽)
+        </Typography>
+    )
+}
+
 export default ReceivedCombosView;
