@@ -1,13 +1,14 @@
 import {usePickUpComboMutation} from "../../api/api.js";
 import {useSelector} from "react-redux";
 import {selectCart} from "../../reducers/cartSlice.js";
-import {useEffect} from "react";
+import {useEffect, useRef} from "react";
 import {Card, CardContent, CardHeader, Grid, LinearProgress, List, ListItem, Paper, Typography} from "@mui/material";
 import {Box} from "@mui/system";
 
 const ReceivedCombosView = () => {
     const [pickUpTrigger, {data, error, isFetching, isLoading}] = usePickUpComboMutation();
     const cart = useSelector(selectCart);
+    const contentRef = useRef(null);
 
 
     useEffect(() => {
@@ -15,6 +16,12 @@ const ReceivedCombosView = () => {
             pickUpTrigger({items: cart.items, allowedMissingSlots: cart.allowedMissingSlots})
         }
     }, [cart]);
+
+    useEffect(() => {
+        if (data && contentRef.current) {
+            contentRef.current.scrollIntoView({ behavior: "smooth" }); // Плавная прокрутка
+        }
+    }, [data]);
 
 
     if (isLoading || isFetching) {
@@ -26,7 +33,7 @@ const ReceivedCombosView = () => {
     }
 
     return (
-        <Box sx={{mt: 3}}>
+        <Box sx={{mt: 3}} ref={contentRef}>
             <Grid container spacing={2}>
                 {data.map((order, orderIndex) => (
                     <Grid item xs={12} sm={6} key={orderIndex}>
