@@ -2,7 +2,15 @@ import {usePickUpComboMutation} from "../../api/api.js";
 import {useSelector} from "react-redux";
 import {selectCart} from "../../reducers/cartSlice.js";
 import {useEffect, useRef} from "react";
-import {Card, CardContent, CardHeader, Grid, LinearProgress, List, ListItem, Paper, Typography} from "@mui/material";
+import {
+    Card,
+    CardContent,
+    CardHeader,
+    Divider,
+    Grid,
+    LinearProgress,
+    Typography
+} from "@mui/material";
 import {Box} from "@mui/system";
 
 const ReceivedCombosView = () => {
@@ -37,23 +45,26 @@ const ReceivedCombosView = () => {
             <Grid container spacing={2}>
                 {data.map((order, orderIndex) => (
                     <Grid item xs={12} sm={6} key={orderIndex}>
-                        <Card>
+                        <Card sx={{pb: 0}}>
                             <CardHeader
                                 title={` Вариант ${orderIndex + 1}`}
                                 subheader={`Цена: ${order.price} ₽`}
                             />
-                            <CardContent>
+                            <CardContent sx={{paddingY: 0}}>
+                                <Divider sx={{ mb: 1 }} />
                                 {order.comboResults.map((comboResult, comboIndex) => (
                                     <Card key={comboIndex}
                                           sx={{
-                                              mb: 1,
                                               boxShadow: 'none',
                                               borderLeft: 'none',
                                               borderRight: 'none',
-                                              p: 0,
+                                              // padding: "10px 0 0 0",
+                                              pt: "10px",
+                                              // p: 0,
                                               width: '100%'
                                             }}
                                           variant={"outlined"}
+                                          square={true}
                                     >
                                         <CardContent sx={{ p: 0 }}>
                                             <Typography variant="h6">{comboResult.combo.title}</Typography>
@@ -72,6 +83,7 @@ const ReceivedCombosView = () => {
                                             borderLeft: 'none',
                                             borderRight: 'none',
                                             p: 0,
+                                            pt: "10px",
                                             width: '100%'
                                         }}
                                         variant={"outlined"}
