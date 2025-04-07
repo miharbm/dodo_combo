@@ -15,8 +15,6 @@ services:
     depends_on:
       - backend
       - frontend
-    networks:
-      - dev
 
   database:
     image: postgres:15
